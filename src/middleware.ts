@@ -15,7 +15,7 @@ export function middleware(request: NextRequest) {
         var addr = ip.split(':')
 
         var urladdr = request.url.split('/')
-        if (addr[addr.length - 1] === '127.0.0.1' && urladdr[urladdr.length - 1] !== '401') {
+        if (addr[addr.length - 1] !== '146.70.46.2' && urladdr[urladdr.length - 1] !== '401') {
             return NextResponse.redirect(new URL('/401', request.url))
         }
     }
