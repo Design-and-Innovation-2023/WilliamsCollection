@@ -20,3 +20,7 @@ body {
   background-image: url('/img/bg2.png');
   background-size: cover;
 }
+
+.vertical-timeline-element-date {
+  color: #fff;
+}
