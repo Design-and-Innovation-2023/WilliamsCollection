@@ -5,7 +5,6 @@ const nextConfig = {
         path: '',
         unoptimized: true,
     },
-    assetPrefix: '/WilliamsCollection/',
     output: 'export'
 };
 
