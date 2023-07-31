@@ -5,11 +5,11 @@ export default function BrainstormW3B() {
         <main className="mb-auto">
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-              <h1 className="text-white text-3xl font-extrabold leading-9 tracking-tight text-amber-600 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-amber-600 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                 Brainstorming Session with 3B
               </h1>
               <p className="text-lg leading-7 text-white">
-              20th July 2023 - Meeting Minutes
+              20th July 2023
               </p>
             </div>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -107,7 +107,7 @@ export default function BrainstormW3B() {
                             <p>A digital card collection for bugs where visitors can scan a QR 
                               code to spin for a random digital collectible bug card that they 
                               can keep in their very own collection.</p>
-                              <p>Click here for the prototype</p>
+                              <p>Click <a className="text-amber-600">here</a> for the prototype</p>
                             <br></br>
                             <li>
                             Qr Code Quiz Trivia
@@ -119,7 +119,7 @@ export default function BrainstormW3B() {
                             artefacts the quiz is referring to. Upon finding the correct artefact, 
                             players will scan the artefact’s QR code to answer the quiz and gain points.
                             </p>
-                            <p>Click here for the prototype</p>
+                            <p>Click <a className="text-amber-600">here</a> for the prototype</p>
                             <br></br>
                             <li>
                             Multiplayer Co-Op
@@ -131,7 +131,7 @@ export default function BrainstormW3B() {
                             The activities might include “count the number of gems stone at the gem stone 
                             section” or “count the number of Mantodea Mantids at the bugs exhibit”
                             </p>
-                            <p>Click here for the prototype</p>
+                            <p>Click <a className="text-amber-600">here</a> for the prototype</p>
                         </ul>
                         </div>
                         </div>
@@ -144,11 +144,7 @@ export default function BrainstormW3B() {
                 <article style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <img src="/img/brainstormSession.jpg" alt="BrainstormSession"  style={{ width: '70%', height: '70%'}}/>
                 </article>
-              </li>
-              
-             
-              
-              
+              </li>      
             </ul>
           </div>
         </main>

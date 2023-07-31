@@ -5,7 +5,7 @@ export default function RequirementGathered() {
           <main className="mb-auto">
             <div className="divide-y divide-gray-200 dark:divide-gray-700">
               <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-                <h1 className="text-white text-3xl font-extrabold leading-9 tracking-tight text-amber-600 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+                <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-amber-600 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                   Requirement Gathering
                 </h1>
                 <p className="text-lg leading-7 text-white">

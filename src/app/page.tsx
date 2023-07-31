@@ -95,10 +95,14 @@ const OurJourneySection: React.FC = () => {
         >
           <h1 className="vertical-timeline-element-title font-bold">Requirement Gathering with Ruth</h1>
           <p>
-            Team 3A and 3B had a fantastic meeting with our esteemed client, Ruth, at the Hunterian Museum. It was a delightful experience to explore the museum together and gain invaluable insights about the artifacts and the project. We took the opportunity to clarify any questions and concerns, ensuring a clear understanding of the project's scope.  We are thrilled and eager to embark on the next phase of the project!
+            Team 3A and 3B had a fantastic meeting with our esteemed client, Ruth, 
+            at the Hunterian Museum. It was a delightful experience to explore the museum 
+            together and gain invaluable insights about the artifacts and the project. We took 
+            the opportunity to clarify any questions and concerns, ensuring a clear understanding 
+            of the project's scope.  We are thrilled and eager to embark on the next phase of the project!
           </p>
           <p>
-            Click <Link href='/info'>here</Link>  to know more about what we gathered!
+            Click <a className="text-amber-600"><Link href='/info'>here</Link></a>  to know more about what we gathered!
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -109,9 +113,12 @@ const OurJourneySection: React.FC = () => {
         >
           <h1 className="vertical-timeline-element-title font-bold">Brainstorming with Team 3B</h1>
           <p>
-            Team 3A had a productive meeting with Team 3B to kickstart our ideation process. We gathered and brainstormed feasible ideas, ensuring there was no overlap between our teams. We explored diverse solutions that meet all the criteria. By the end of the day, Team 3A reached a consensus on three promising ideas!          </p>
+            Team 3A had a productive meeting with Team 3B to kickstart our ideation process. 
+            We gathered and brainstormed feasible ideas, ensuring there was no overlap between 
+            our teams. We explored diverse solutions that meet all the criteria. By the end of the 
+            day, Team 3A reached a consensus on three promising ideas!          </p>
           <p>
-            Click <Link href='/info'>here</Link> to be in the meeting with us!
+            Click <a className="text-amber-600"><Link href='/brainstormW3B'>here</Link></a> to be in the meeting with us!
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -175,7 +182,7 @@ const OurJourneySection: React.FC = () => {
             We conducted an update meeting with Ruth to present our ideas and receive valuable feedback. During the meeting, we received helpful tips to enhance our proposals. Ruth shared her opinions and preferences regarding our ideas, providing us with valuable insights for further refinement.
           </p>
           <p>
-            Click <Link href='/info'>here</Link> to hear more about what was discussed!
+            Click <a className="text-amber-600"><Link href='/zoomWRuth'>here</Link></a> to hear more about what was discussed!
 
           </p>
         </VerticalTimelineElement>
@@ -208,7 +215,7 @@ const OurJourneySection: React.FC = () => {
             The team went to The Hunterian Museum to test out our prototype to ensure its usability and smooth flow of user experience.
           </p>
           <p>
-            TBC
+            Chek out the video <a className="text-amber-600"><Link href='https://youtu.be/leZ4pftF0d4'>here</Link></a>!
           </p>
         </VerticalTimelineElement>
 
@@ -224,8 +231,7 @@ const OurJourneySection: React.FC = () => {
             The team met up with Ruth to discuss our finalize idea to identify gaps and areas of improvements.
           </p>
           <p>
-            Check out our meeting here!
-
+            Check out our meeting here.
           </p>
         </VerticalTimelineElement>
 
