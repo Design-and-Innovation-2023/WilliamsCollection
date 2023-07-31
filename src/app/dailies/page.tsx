@@ -111,7 +111,7 @@ export default function Dailies() {
                         <p> The following idea are some that we are considering: </p>
                         <br></br>
                         <div>
-                          <ol>
+                          <ul className="list-disc">
                             <li>
                               A digital card collection for bugs where visitors can scan a QR code to spin for a random digital 
                               collectible bug card that they can keep in their very own collection.
@@ -131,7 +131,7 @@ export default function Dailies() {
                               to find out the full information to win the game. The activities might include “count the number 
                               of gems stone at the gem stone section” or “count the number of Mantodea Mantids at the bugs exhibit”
                             </li>
-                        </ol>
+                        </ul>
                         </div>
                         </div>
                       </div>
