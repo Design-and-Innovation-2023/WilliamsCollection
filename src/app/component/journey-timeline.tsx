@@ -9,15 +9,15 @@ const TimelineJourneyComponent: React.FC = () => {
   return (
     <VerticalTimeline className="mr-0">
       {/* <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          // contentStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
-          // contentArrowStyle={{ borderRight: '7px solid  rgba(82, 71, 59,1)' }}
-          date="2011 - present"
-          // iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
-        // icon={<WorkIcon />}
-        >
-          <Card emoji="👋" hueA={0} hueB={120} />
-        </VerticalTimelineElement> */}
+      className="vertical-timeline-element--work"
+      // contentStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
+      // contentArrowStyle={{ borderRight: '7px solid  rgba(82, 71, 59,1)' }}
+      date="2011 - present"
+      // iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
+    // icon={<WorkIcon />}
+    >
+      <Card emoji="👋" hueA={0} hueB={120} />
+    </VerticalTimelineElement> */}
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2010 - 2011"
@@ -36,8 +36,11 @@ const TimelineJourneyComponent: React.FC = () => {
           are thrilled and eager to embark on the next phase of the project!
         </p>
         <p>
-          Click <Link href="/req-gathering">here</Link> to know more about what
-          we gathered!
+          Click{" "}
+          <Link className="text-amber-600" href="/req-gathering">
+            here
+          </Link>{" "}
+          to know more about what we gathered!
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -57,8 +60,11 @@ const TimelineJourneyComponent: React.FC = () => {
           reached a consensus on three promising ideas!{" "}
         </p>
         <p>
-          Click <Link href="/brainstormW3B">here</Link> to be in the meeting
-          with us!
+          Click{" "}
+          <Link className="text-amber-600" href="/brainstormW3B">
+            here
+          </Link>{" "}
+          to be in the meeting with us!
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -154,8 +160,11 @@ const TimelineJourneyComponent: React.FC = () => {
           for further refinement.
         </p>
         <p>
-          Click <Link href="/info">here</Link> to hear more about what was
-          discussed!
+          Click{" "}
+          <Link className="text-amber-600" href="/zoomWRuth">
+            here
+          </Link>{" "}
+          to hear more about what was discussed!
         </p>
       </VerticalTimelineElement>
 
@@ -194,7 +203,13 @@ const TimelineJourneyComponent: React.FC = () => {
           The team went to The Hunterian Museum to test out our prototype to
           ensure its usability and smooth flow of user experience.
         </p>
-        <p>TBC</p>
+        <p>
+          Chek out the video{" "}
+          <Link className="text-amber-600" href="https://youtu.be/leZ4pftF0d4">
+            here
+          </Link>
+          !
+        </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -212,7 +227,7 @@ const TimelineJourneyComponent: React.FC = () => {
           The team met up with Ruth to discuss our finalize idea to identify
           gaps and areas of improvements.
         </p>
-        <p>Check out our meeting here!</p>
+        <p>Check out our meeting here.</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
