@@ -79,10 +79,10 @@ const OurJourneySection: React.FC = () => {
       <VerticalTimeline className='mr-0'>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          // contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          // contentStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
+          // contentArrowStyle={{ borderRight: '7px solid  rgba(82, 71, 59,1)' }}
           date="2011 - present"
-          // iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          // iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <Card emoji="👋" hueA={0} hueB={120} />
@@ -90,7 +90,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h1 className="vertical-timeline-element-title font-bold">Requirement Gathering with Ruth</h1>
@@ -104,7 +104,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h1 className="vertical-timeline-element-title font-bold">Brainstorming with Team 3B</h1>
@@ -117,7 +117,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold">Prototype/Storyboard</h3>
@@ -133,7 +133,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold">Prototype/Storyboard</h3>
@@ -150,7 +150,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold">Prototype/Storyboard</h3>
@@ -166,7 +166,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold">Sharing Session with Ruth</h3>
@@ -184,7 +184,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold">Product Refinement</h3>
@@ -199,7 +199,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold">Testing prototype at the Museum</h3>
@@ -215,7 +215,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold"> Meeting with Ruth</h3>
@@ -232,7 +232,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold"> Deployment Phase</h3>
@@ -250,7 +250,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
         // icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title font-bold"> Usability Testing</h3>
