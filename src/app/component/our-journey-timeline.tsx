@@ -137,7 +137,7 @@ const OurJourneySection: React.FC = () => {
             game.
           </p>
           <p>
-            Click <Link className="text-amber-600" href="/code-trivia">here</Link> for more information on the
+            Click <Link className="text-amber-600" href="/past-journey/code-trivia">here</Link> for more information on the
             game!
           </p>
         </VerticalTimelineElement>
@@ -162,7 +162,7 @@ const OurJourneySection: React.FC = () => {
             information. Teamwork is essential for success.{" "}
           </p>
           <p>
-            Click <Link href="/info">here</Link> for more information on the
+            Click <Link className="text-amber-600" href="/past-journey/MultiplayerGame">here</Link> for more information on the
             game!
           </p>
         </VerticalTimelineElement>

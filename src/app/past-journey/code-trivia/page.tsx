@@ -5,21 +5,43 @@ export default function EmailUpdates() {
         <main className="mb-auto">
           <div className="divide-y divide-white-200 dark:divide-white-700">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-              <h1 className="text-white text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                Qr Code Quiz Trivia
+              <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-amber-600 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Qr Code Quiz Trivia
               </h1>
               <p className="text-lg leading-7 text-white">
                 20th July 2023
               </p>
             </div>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-              <li className="py-12">
+            <li className="py-12">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-white">
                         <p>Description</p>
+                      </dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <div className="prose max-w-none text-white text-justify">
+                          The QR Code quiz/game is a museum scavenger hunt where visitors scan a QR code at the entrance, 
+                          leading them on an adventure to find a mystery object. By solving quizzes and games related to 
+                          exhibits, they receive hints to locate QR codes hidden throughout the museum. When the initial 
+                          QR code matches the object's QR code, they win the game.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-white">
+                        <p>Steps</p>
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
@@ -67,7 +89,7 @@ export default function EmailUpdates() {
                     <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-white">
-                        <p>Wireframe</p>
+                        <p>Storyboard</p>
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
@@ -94,8 +116,7 @@ export default function EmailUpdates() {
                         <div>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
-                          <p>Click <a className="text-amber-600" href={" https://www.figma.com/file/3QjJjZPcolrFjQWInHe8P6/QR-CODE?type=design&node-id=0%3A1&mode=design&t=8iiapoYxG5jsmqKl-1\n" +
-                              "                      "}>here</a> to the figma</p>
+                          <p>Click <a className="text-amber-600" href={"https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=0%3A1&mode=design&t=3Vr3xWx0QV8B4HLs-1"}>here</a> for the figma</p>
                         </div>
 
                        </div>
