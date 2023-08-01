@@ -137,7 +137,7 @@ const OurJourneySection: React.FC = () => {
             game.
           </p>
           <p>
-            Click <Link href="/info">here</Link> for more information on the
+            Click <Link className="text-amber-600" href="/code-trivia">here</Link> for more information on the
             game!
           </p>
         </VerticalTimelineElement>
