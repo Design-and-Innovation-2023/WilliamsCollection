@@ -6,25 +6,24 @@ const MainFirstSection: React.FC = () => {
 
   const handleClick = async () => {
     // Scroll to Section 3
-    const journeyStartSectionElement = document.getElementById(
-      "journey-start-section"
-    );
+    const journeyStartSectionElement =
+      document.getElementById("product-section");
     if (journeyStartSectionElement) {
       await controls.start({
         opacity: 0,
         transition: { duration: 0.3 },
       });
 
-      // const handleScrollEnd = () => {
-      //   controls.start({
-      //     opacity: 1,
-      //     transition: { duration: 0.3 },
-      //   });
-      //   journeyStartSectionElement.removeEventListener(
-      //     "scroll",
-      //     handleScrollEnd
-      //   );
-      // };
+      const handleScrollEnd = () => {
+        controls.start({
+          opacity: 1,
+          transition: { duration: 0.3 },
+        });
+        journeyStartSectionElement.removeEventListener(
+          "scroll",
+          handleScrollEnd
+        );
+      };
 
       journeyStartSectionElement.scrollIntoView({ behavior: "smooth" });
       await controls.start({
@@ -50,7 +49,7 @@ const MainFirstSection: React.FC = () => {
       <div className="pt-20">
         <button
           className="rounded-full text-white bg-amber-500 p-5 font-bold"
-          // onClick={handleClick}
+          onClick={handleClick}
         >
           {" "}
           Learn About Our Journey

@@ -44,9 +44,14 @@ const OurJourneySection: React.FC = () => {
             project's scope. We are thrilled and eager to embark on the next
             phase of the project!
           </p>
+          <p className="underline italic">
+            Reflection: We learnt a great deal during this session and am thankful 
+            for Ruth for her hospitality and for answering all of our questions to 
+            lead us in the correct direction.
+          </p>
           <p>
             Click{" "}
-            <Link className="text-amber-600" href="/req-gathering">
+            <Link className="text-amber-600" href="/past-journey/req-gathering">
               here
             </Link>{" "}
             to know more about what we gathered!
@@ -68,9 +73,16 @@ const OurJourneySection: React.FC = () => {
             solutions that meet all the criteria. By the end of the day, Team 3A
             reached a consensus on three promising ideas!{" "}
           </p>
+
+          <p className="underline italic">
+          Reflection: This was an important milestone in our journey as it lays the foundation 
+          for what is about to come. An important thing to highlight is mental model, 
+          it is important that we aligned our mental model so we are all on the same 
+          page, heading in the same direction.
+          </p>
           <p>
             Click{" "}
-            <Link className="text-amber-600" href="/brainstormW3B">
+            <Link className="text-amber-600" href="/past-journey/brainstormW3B">
               here
             </Link>{" "}
             to be in the meeting with us!
@@ -99,7 +111,7 @@ const OurJourneySection: React.FC = () => {
             complete their collection.
           </p>
           <p>
-            Click <Link href="/info">here</Link> for more information on the
+            Click <Link className="text-amber-600" href="/past-journey/bugCollectibles">here</Link> for more information on the
             game!
           </p>
         </VerticalTimelineElement>
@@ -172,9 +184,17 @@ const OurJourneySection: React.FC = () => {
             preferences regarding our ideas, providing us with valuable insights
             for further refinement.
           </p>
+
+          <p className="underline italic">
+          Reflection: During the meeting we gathered alot of valid feedback from 
+          Ruth that was immensely useful for time to come. It shows that our idea was
+          not perfect and there was room for improvement. We are glad to absorb these
+           feedback and will definitely incorporate them into our product.
+          </p>
+
           <p>
             Click{" "}
-            <Link className="text-amber-600" href="/zoomWRuth">
+            <Link className="text-amber-600" href="/past-journey/zoomWRuth">
               here
             </Link>{" "}
             to hear more about what was discussed!
@@ -198,6 +218,16 @@ const OurJourneySection: React.FC = () => {
             team moved forward with creating a High-Fidelity prototype to bring
             this combined vision to life!
           </p>
+
+          <p className="underline italic">
+          Reflection: Another important milestone of our journey. The solution of 
+          combining idea 1 (Bug collectible) and Idea 2 (QR code quiz trivia) is 
+          combination to achieve the best of both worlds. The team was very happy
+           that we can create an interactive solution by using the Bug Collectible 
+           idea while still maintaining a educational approach using the QR code quiz
+          trivia idea.
+          </p>
+        
           <p>
             Click <Link href="/info">here</Link> for more information on the
             game!
@@ -216,6 +246,11 @@ const OurJourneySection: React.FC = () => {
           <p>
             The team went to The Hunterian Museum to test out our prototype to
             ensure its usability and smooth flow of user experience.
+          </p>
+          <p className="underline italic">
+          Reflection: Testing our prototype was a great way to identify gaps
+           in usability and flow. The team gathered many feedback during our testing
+            session that will be rectified in our product.
           </p>
           <p>
             Chek out the video{" "}
@@ -244,6 +279,9 @@ const OurJourneySection: React.FC = () => {
             The team met up with Ruth to discuss our finalize idea to identify
             gaps and areas of improvements.
           </p>
+          <p className="underline italic">
+          Reflection: During this session, more indepth feebacks and suggestions were provided for us to improve our solution. The team had noted them down for further discussion.
+          </p>
           <p>Check out our meeting here.</p>
         </VerticalTimelineElement>
 
@@ -255,11 +293,11 @@ const OurJourneySection: React.FC = () => {
         >
           <h3 className="vertical-timeline-element-title font-bold">
             {" "}
-            Deployment Phase
+            Development Phase
           </h3>
 
-          <p>TBC</p>
-          <p>TBC</p>
+          <p>Over the cause of a few days, the team diligently worked on the product to realize our idea. This was done with tools like Firebase, Flask and HTML. Many errors and bugs acted as hurdles to the team but we persist to emerge victorious!</p>
+          <p className="underline italic">Realising our ideas was not a straight forward process due to techical difficulties. However, we are glad that we stuck to our idea and persisted in order to present the best product to our client.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -273,8 +311,18 @@ const OurJourneySection: React.FC = () => {
             Usability Testing
           </h3>
 
-          <p>TBC</p>
-          <p>TBC</p>
+          <p>A usability testing was performed with Ruth as our tester in The Hunterian Museum. As part of the usability test, a full walk through was done to identify any gaps in the user experience. Afterwhich, (minor) feedback were provided by the tester for us to improve our product.</p>
+          <p className="underline italic">Reflection: Even in the final phase of the journey, the team still feel feedbacks are still important. This iterative improvement process will be the key to getting our product to be as perfect as possible.</p>
+          <p>
+            Chek out the video{" "}
+            <Link
+              className="text-amber-600"
+              href="https://youtu.be/leZ4pftF0d4"
+            >
+              here
+            </Link>
+            !
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </motion.div>
