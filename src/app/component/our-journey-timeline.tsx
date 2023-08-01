@@ -99,7 +99,7 @@ const OurJourneySection: React.FC = () => {
             complete their collection.
           </p>
           <p>
-            Click <Link href="/info">here</Link> for more information on the
+            Click <Link className="text-amber-600" href="/past-journey/bugCollectibles">here</Link> for more information on the
             game!
           </p>
         </VerticalTimelineElement>
