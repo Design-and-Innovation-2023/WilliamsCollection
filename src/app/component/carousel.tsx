@@ -10,7 +10,7 @@ export default function ProductCarousel() {
   return (
     <div className="container flex justify-center items-center">
       <Swiper
-        className="w-1/6"
+        className="w-3/6 md:w-3/12 2xl:w-2/12"
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -41,6 +41,9 @@ export default function ProductCarousel() {
           <img src="/img/phone-webapp/phone/spinning.png" alt="SwipeImg" />
         </SwiperSlide>
         <SwiperSlide>
+          <img src="/img/phone-webapp/phone/quizq1hint.png" alt="SwipeImg" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="/img/phone-webapp/phone/quizq1.png" alt="SwipeImg" />
         </SwiperSlide>
         <SwiperSlide>
@@ -48,6 +51,24 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <img src="/img/phone-webapp/phone/quizq3.png" alt="SwipeImg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/img/phone-webapp/phone/quiz-complete.png" alt="SwipeImg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/img/phone-webapp/phone/collection-item-info.png"
+            alt="SwipeImg"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/img/phone-webapp/phone/emptybasket.png" alt="SwipeImg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="/img/phone-webapp/phone/today-basketfilled.png"
+            alt="SwipeImg"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
