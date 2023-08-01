@@ -114,7 +114,7 @@ const TimelineJourneyComponent: React.FC = () => {
           the initial QR code matches the object's QR code, they win the game.
         </p>
         <p>
-          Click <Link href="/info">here</Link> for more information on the game!
+          Click <Link href="/code-trivia">here</Link> for more information on the game!
         </p>
       </VerticalTimelineElement>
 
