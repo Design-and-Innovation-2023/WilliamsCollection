@@ -35,8 +35,7 @@ export default function EmailUpdates() {
                           <br/>
                           4. Each object in the museum contains a QR code
                           <br/>
-                          5. When the initial QR code matches the QR code of the object, the person wins the game
-
+                          5. To win the game, the user must scan the QR code of the object they find and match it with the right answer obtained during the games.
                         </div>
                       </div>
                     </div>
