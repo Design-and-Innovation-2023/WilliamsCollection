@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
+import { motion } from "framer-motion";
+import ProductCarousel from "./carousel";
 
 const ProductComponent: React.FC = () => {
   return (
-    <div
+    <motion.div
       className="flex flex-col justify-center items-center"
       id="product-section"
     >
@@ -26,8 +28,10 @@ const ProductComponent: React.FC = () => {
         </h2>
       </div>
 
-      <div></div>
-    </div>
+      <div>
+        <ProductCarousel />
+      </div>
+    </motion.div>
   );
 };
 
