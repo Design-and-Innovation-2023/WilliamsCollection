@@ -284,6 +284,36 @@ export default function EmailUpdates() {
                 </article>
               </li>
 
+              <li className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                        <p className = "text-white font-bold">August 1, 2020</p>
+                      </dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <div className="prose max-w-none text-white text-justify dark:text-white">
+                        Hi Ruth,<br></br><br></br>
+
+                        Thank you for being our tester for the usability test earlier today. The feedback you provided is invaluable and the team has made the necessary changes to the product. We are glad to inform you that we will be finalising our product for Thursday's exhibition.
+                        <br></br><br></br>
+                        Lastly, the team and I would like to express our sincere gratitude for all the support and guidance you provided us throughout this journey. The product would not have been possible without you.
+                        <br></br><br></br>
+                        Once again, thank you so much for everything and hope to work with you again in the future.                          <br></br><br></br>
+                        <br></br><br></br>
+                        Regards,<br></br>
+                        2717943B<br></br>
+                        Nadiah from team 3A
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+
               
             </ul>
           </div>
