@@ -1,3 +1,4 @@
+import React from "react";
 export default function EmailUpdates() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -55,7 +56,22 @@ export default function EmailUpdates() {
                           </div>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                        Upon getting into our teams, team 3A wasted no time in getting to know each other, the team assimilated well and learnt a lot about each other (our team even went out for lunch together after!). Apart from formalities, we learnt about mental models that we might have when first facing a problem, many of us realised that our initial mental models that may differ greatly from one another. Hence it is important that we streamline our thoughts and agree on how something (eg. the final product of the project) will turn out. Also, we were educated on asking the useful questions as part of the requirement gathering. Asking the right questions can help us gain more leads and assist us in understanding that out clients are looking for instead of presuming their desires for the final product.
+                          Upon getting into our teams, team 3A wasted no time in
+                          getting to know each other, the team assimilated well
+                          and learnt a lot about each other (our team even went
+                          out for lunch together after!). Apart from
+                          formalities, we learnt about mental models that we
+                          might have when first facing a problem, many of us
+                          realised that our initial mental models that may
+                          differ greatly from one another. Hence it is important
+                          that we streamline our thoughts and agree on how
+                          something (eg. the final product of the project) will
+                          turn out. Also, we were educated on asking the useful
+                          questions as part of the requirement gathering. Asking
+                          the right questions can help us gain more leads and
+                          assist us in understanding that out clients are
+                          looking for instead of presuming their desires for the
+                          final product.
                         </div>
                       </div>
                     </div>
@@ -104,21 +120,31 @@ export default function EmailUpdates() {
                           </div>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                        <p>Team 3A and 3B had a great morning session with Ruth at the Hunterian Museum, 
-                        we had a quick tour of the museum and learnt a great deal about the artefacts 
-                        (and the rich history behind them). After the tour, we sat down to answer some 
-                        questions with regards to the project. One prominent point made by the client is 
-                        the fact that the product should aim to encourage children (age group 8 - 11 and 11- 14) 
-                        to constantly re-visit the museum. This serves as a significant factor as the approach 
-                        we will be taking takes a turn.</p>
-                        <p>
-                        The teams also did a study of the museum’s current application (eg. bloomberg connect) 
-                        to get a feel of what might be desired from the clients. From our observation, the 
-                        application used by the Hunterian Museum uses largely visuals and audio to enhance 
-                        interactivity between visitors and artefacts, but interactions lacks activity for the 
-                        visitors to participate in. From these observed flaws, the team went into a brain storming 
-                        session, in search for the one optimal solution.
-                        </p>
+                          <p>
+                            Team 3A and 3B had a great morning session with Ruth
+                            at the Hunterian Museum, we had a quick tour of the
+                            museum and learnt a great deal about the artefacts
+                            (and the rich history behind them). After the tour,
+                            we sat down to answer some questions with regards to
+                            the project. One prominent point made by the client
+                            is the fact that the product should aim to encourage
+                            children (age group 8 - 11 and 11- 14) to constantly
+                            re-visit the museum. This serves as a significant
+                            factor as the approach we will be taking takes a
+                            turn.
+                          </p>
+                          <p>
+                            The teams also did a study of the museum’s current
+                            application (eg. bloomberg connect) to get a feel of
+                            what might be desired from the clients. From our
+                            observation, the application used by the Hunterian
+                            Museum uses largely visuals and audio to enhance
+                            interactivity between visitors and artefacts, but
+                            interactions lacks activity for the visitors to
+                            participate in. From these observed flaws, the team
+                            went into a brain storming session, in search for
+                            the one optimal solution.
+                          </p>
                         </div>
                       </div>
                     </div>

@@ -46,7 +46,7 @@ const OurJourneySection: React.FC = () => {
           </p>
           <p>
             Click{" "}
-            <Link className="text-amber-600" href="/req-gathering">
+            <Link className="text-amber-600" href="/past-journey/req-gathering">
               here
             </Link>{" "}
             to know more about what we gathered!
@@ -70,7 +70,7 @@ const OurJourneySection: React.FC = () => {
           </p>
           <p>
             Click{" "}
-            <Link className="text-amber-600" href="/brainstormW3B">
+            <Link className="text-amber-600" href="/past-journey/brainstormW3B">
               here
             </Link>{" "}
             to be in the meeting with us!
@@ -174,7 +174,7 @@ const OurJourneySection: React.FC = () => {
           </p>
           <p>
             Click{" "}
-            <Link className="text-amber-600" href="/zoomWRuth">
+            <Link className="text-amber-600" href="/past-journey/zoomWRuth">
               here
             </Link>{" "}
             to hear more about what was discussed!

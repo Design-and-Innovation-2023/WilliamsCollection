@@ -2,7 +2,10 @@ import React, { useRef } from "react";
 
 const ProductComponent: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div
+      className="flex flex-col justify-center items-center"
+      id="product-section"
+    >
       <div className="w-2/6">
         <img
           src="/img/phone-webapp/product-showcase.png"
@@ -16,11 +19,11 @@ const ProductComponent: React.FC = () => {
         ></img>
       </div>
       <div>
-        <p className="text-white">
-          Our Product let's you have a interative experience at the hunterian
-          museum. Allowing you or your children to easily learn more about the
-          musuem{" "}
-        </p>
+        <h2 className="text-white">
+          An interactive and enriching experience for young visitors to collect
+          virtual artefact into their personal collection when they visit The
+          Hunterian Museum.{" "}
+        </h2>
       </div>
 
       <div></div>
