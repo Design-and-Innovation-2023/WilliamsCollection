@@ -549,12 +549,14 @@ export default function Dailies() {
                       </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
                         <p>
-                        
+                        Good news! Final touches are being done to the product as we speak, this is to ensure that it is usable and error-free. The team has achieved great progress over the past few days in realizing the idea and we are excited to present our product to you.
+
+                        With regards, to the static website, team 3A requested feedback from teaching assistants and we are in the progress of making changes in accordance with the feedback
                         </p>
                         <br></br>
-                        <p>
-                        
-                        </p>
+                        <div className="flex">
+                          <img src="/img/grpphoto.jpeg" alt="28th July 1" style={{ width: '70%', height: '70%'}} />
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -578,7 +580,9 @@ export default function Dailies() {
                       </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
                         <p>
-                        
+                        Today the team performed a usability test with our client, Ruth as our tester. Feedback were taken in and actions to rectify any gaps were performed after (ie. minor cosmetics changes). Later in the day, the team went on to finalise our product and we are very happy with how it turned out.
+                            <br></br><br></br>
+                        The team will be working on the static website where we will be completing it as soon as possible.
                         </p>
                         <br></br>
                         <p>
@@ -606,7 +610,9 @@ export default function Dailies() {
                       </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
                         <p>
-                        
+                        At this final stage of the project, the team performed a last run-through of all necessary tests of the product and static website. Together with that, the team has also completed our poster, and we are very excited to showcase all of our work during the exhibition.
+                        <br></br><br></br>
+                        As we bring this project to a close, the team would like to express our gratitude to Professor Jonathan Grizou, Ruth Fletcher, and all participating academics for their guidance, encouragement and effort for making this module such an enriching and meaningful experience.
                         </p>
                         <br></br>
                         <p>
