@@ -229,7 +229,7 @@ const OurJourneySection: React.FC = () => {
           </p>
         
           <p>
-            Click <Link href="/info">here</Link> for more information on the
+            Click <Link className="text-amber-600" href="/past-journey/productRefinement">here</Link> for more information on the
             game!
           </p>
         </VerticalTimelineElement>

@@ -25,8 +25,9 @@ export default function RequirementGathered() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          An interactive game where visitors can scan a QR-code to stand a chance
-                          to receive a digital arteface collectible where they can save in their personal
+                          An interactive game where visitors can scan a QR-code
+                          to stand a chance to receive a digital arteface
+                          collectible where they can save in their personal
                           collection
                         </div>
                       </div>
@@ -40,7 +41,7 @@ export default function RequirementGathered() {
                     <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-white">
-                        <p>Steps</p>
+                        <p>Questions Asked</p>
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
@@ -48,33 +49,40 @@ export default function RequirementGathered() {
                         <div className="prose max-w-none text-white text-justify">
                           <ul className="list-decimal">
                             <li>
-                            QR codes are placed at bug exhibits throughout the museum.
+                              QR codes are placed at bug exhibits throughout the
+                              museum.
                             </li>
                             <li>
-                            Kids can scan QR codes using smartphones or provided devices.
+                              Kids can scan QR codes using smartphones or
+                              provided devices.
                             </li>
                             <li>
-                            Scanning a QR code captures a digital version of the bug, like a collectible card.
-
+                              Scanning a QR code captures a digital version of
+                              the bug, like a collectible card.
                             </li>
                             <li>
-                            Digital bug includes various stats related to the real bug (e.g., weight, interesting facts).
+                              Digital bug includes various stats related to the
+                              real bug (e.g., weight, interesting facts).
                             </li>
                             <li>
-                            Each visit allows kids to 'roll' twice, collecting random digital bugs.
-
+                              Each visit allows kids to 'roll' twice, collecting
+                              random digital bugs.
                             </li>
                             <li>
-                            Encourages repeated visits to collect all different bug types.
+                              Encourages repeated visits to collect all
+                              different bug types.
                             </li>
                             <li>
-                            Digital bugs ask questions, promoting exploration in other museum areas.
+                              Digital bugs ask questions, promoting exploration
+                              in other museum areas.
                             </li>
                             <li>
-                            Correct answers award special "bug" cards with rare bugs or unique traits.
+                              Correct answers award special "bug" cards with
+                              rare bugs or unique traits.
                             </li>
                             <li>
-                            Encourages continued engagement with the game and museum exploration.
+                              Encourages continued engagement with the game and
+                              museum exploration.
                             </li>
                           </ul>
                         </div>
@@ -95,9 +103,11 @@ export default function RequirementGathered() {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-
-                        <img src="/img/msg-959516274-445962 (2).jpg" alt="Wujie and nadiah in discussion"  style={{ width: '70%', height: '70%'}}/>
-
+                        <img
+                          src="/img/msg-959516274-445962 (2).jpg"
+                          alt="Wujie and nadiah in discussion"
+                          style={{ width: "70%", height: "70%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -114,9 +124,11 @@ export default function RequirementGathered() {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-
-                        <img src="/img/bug_game_idea.jpeg" alt="Storyboard"  style={{ width: '70%', height: '70%'}}/>
-
+                        <img
+                          src="/img/bug_game_idea.jpeg"
+                          alt="Storyboard"
+                          style={{ width: "70%", height: "70%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -133,13 +145,22 @@ export default function RequirementGathered() {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-                        <div>
-                        </div>
+                        <div></div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
-                          <p>Click <a className="text-amber-600" href={"https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=18%3A2&mode=design&t=jGNAKFHiHaCReBdy-1"}>here</a> for the figma</p>
+                          <p>
+                            Click{" "}
+                            <a
+                              className="text-amber-600"
+                              href={
+                                "https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=18%3A2&mode=design&t=jGNAKFHiHaCReBdy-1"
+                              }
+                            >
+                              here
+                            </a>{" "}
+                            for the figma
+                          </p>
                         </div>
-
-                       </div>
+                      </div>
                     </div>
                   </div>
                 </article>

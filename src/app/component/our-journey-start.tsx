@@ -20,7 +20,7 @@ const OurJourneyStartSection: React.FC = () => {
       >
         <img
           src="/img/logo/our-journey-logo.svg"
-          className="object-cover w-3/4 lg:w-full"
+          className="object-cover w-3/4 lg:w-screen"
         ></img>
       </motion.div>
 
