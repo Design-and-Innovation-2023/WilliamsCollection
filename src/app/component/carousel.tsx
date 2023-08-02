@@ -10,7 +10,7 @@ export default function ProductCarousel() {
   return (
     <div className="flex justify-center items-center">
       <Swiper
-        className="w-3/6 md:w-3/12 lg:w-40"
+        className="w-32 md:w-24 lg:w-40"
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}

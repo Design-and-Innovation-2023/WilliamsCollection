@@ -48,7 +48,7 @@ const PosterSection: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto space-y-16  sm:space-y-8"
+      className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto space-y-16  sm:space-y-6 "
       id="poster-section"
     >
       <div
@@ -64,7 +64,7 @@ const PosterSection: React.FC = () => {
 
         <img
           src="/img/logo/poster-logo.svg"
-          className="object-cover   w-8/12 sm:w-8/12 md:w-6/12 lg:w-4/12 xl:w-5/12  2xl:w-3/12 pt-5"
+          className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
         ></img>
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
@@ -87,7 +87,7 @@ const PosterSection: React.FC = () => {
       <Dialog open={open} handler={handleOpen} size="sm">
         <DialogBody className="bg-transparent">
           <img
-            className="h-[48rem] w-full object-contain object-center"
+            className="h-fit w-full object-contain object-center"
             src="/img/mockup/poster-noframe.png"
           />
         </DialogBody>

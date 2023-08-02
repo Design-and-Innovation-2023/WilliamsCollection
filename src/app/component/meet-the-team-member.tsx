@@ -20,13 +20,13 @@ const MeetTheTeamMember: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col justify-center items-center w-screen h-fit sm:h-screen mr-auto ml-auto mt-auto mb-auto space-y-16  sm:space-y-28  md:space-y-8"
+      className="flex flex-col justify-center items-center w-screen h-fit sm:h-screen mr-auto ml-auto mt-auto mb-auto space-y-16 sm:space-y-28  md:space-y-8"
       id="meet-the-member-section"
     >
       <div className="grid gap-12 items-center md:grid-cols-3">
         <div className="space-y-4 text-center">
           <img
-            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
             src="/img/team/IzzDanial.jpeg"
             alt="woman"
             loading="lazy"
@@ -44,7 +44,7 @@ const MeetTheTeamMember: React.FC = () => {
         </div>
         <div className="space-y-4 text-center">
           <img
-            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-64"
+            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-48 lg:h-48"
             src="/img/team/Nadiah.jpeg"
             alt="man"
             loading="lazy"
@@ -62,7 +62,7 @@ const MeetTheTeamMember: React.FC = () => {
         </div>
         <div className="space-y-4 text-center">
           <img
-            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
             src="/img/team/Wujie.jpeg"
             alt="woman"
             loading="lazy"
@@ -81,7 +81,7 @@ const MeetTheTeamMember: React.FC = () => {
 
         <div className="space-y-4 text-center">
           <img
-            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
             src="/img/team/JunWei.jpeg"
             alt="woman"
             loading="lazy"
@@ -99,7 +99,7 @@ const MeetTheTeamMember: React.FC = () => {
         </div>
         <div className="space-y-4 text-center">
           <img
-            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
             src="/img/team/Lionel.jpeg"
             alt="woman"
             loading="lazy"
@@ -117,7 +117,7 @@ const MeetTheTeamMember: React.FC = () => {
         </div>
         <div className="space-y-4 text-center">
           <img
-            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+            className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
             src="/img/team/ky.jpg"
             alt="woman"
             loading="lazy"

@@ -47,7 +47,7 @@ const DesignIdeas: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto space-y-16  sm:space-y-28  md:space-y-8"
+      className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto space-y-8  sm:space-y-28  md:space-y-8"
       id="design-ideas-section"
     >
       <div
@@ -87,9 +87,10 @@ const DesignIdeas: React.FC = () => {
           color="white"
           className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-4`}
           size="lg"
-          // onClick={handleClick}
         >
-          Figma
+          <Link href="https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=18%3A2&mode=design&t=Va9JcGmi3LvZrBL6-1">
+            Figma
+          </Link>
         </Button>{" "}
         <Button
           color="white"

@@ -9,7 +9,7 @@ import DesignIdeas from "./component/design-ideas";
 import ProductCarouselComponent from "./component/product-carousel-component";
 import PosterSection from "./component/poster-section";
 import MeetTheTeam from "./component/meet-the-team";
-
+import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
 import {
   Navbar,
@@ -25,10 +25,17 @@ import MeetTheTeamMember from "./component/meet-the-team-member";
 export default function Home() {
   const [openNav, setOpenNav] = React.useState(false);
   const controls = useAnimation();
-
-  const goMeetTeam = async () => {
+  const listOfSectionId = [
+    "main-first-section",
+    "product-section",
+    "design-ideas-section",
+    "poster-section",
+    "meet-the-team-section",
+    "journey-start-section",
+  ];
+  const goTo = async (rating: string) => {
     // Scroll to Section 3
-    const element = document.getElementById("meet-the-team-section");
+    const element = document.getElementById(rating);
     if (element) {
       await controls.start({
         opacity: 0,
@@ -65,9 +72,13 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-amber-500">
+        <Link
+          href="#"
+          onClick={(e: any) => goTo(listOfSectionId[1])}
+          className="flex items-center text-amber-500"
+        >
           Product
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -75,9 +86,13 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-amber-500">
+        <Link
+          href="#"
+          onClick={(e: any) => goTo(listOfSectionId[2])}
+          className="flex items-center text-amber-500"
+        >
           Our Design
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -85,9 +100,27 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-amber-500">
+        <Link
+          href="#"
+          onClick={(e: any) => goTo(listOfSectionId[3])}
+          className="flex items-center text-amber-500"
+        >
+          Our Poster
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <Link
+          href="#"
+          onClick={(e: any) => goTo(listOfSectionId[4])}
+          className="flex items-center text-amber-500"
+        >
           Meet the Team
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -95,7 +128,11 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-amber-500">
+        <a
+          href="#"
+          onClick={(e: any) => goTo(listOfSectionId[0])}
+          className="flex items-center text-amber-500"
+        >
           Our Journey
         </a>
       </Typography>

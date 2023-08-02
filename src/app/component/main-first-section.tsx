@@ -39,6 +39,7 @@ const MainFirstSection: React.FC = () => {
       initial={{ opacity: 1 }}
       animate={controls}
       exit={{ opacity: 1 }}
+      id="main-first-section"
       className="flex flex-col justify-center items-center w-screen  h-screen mt-0 pb-40 mb-auto space-y-10  sm:space-y-10  md:space-y-10 lg:space-y-10 xl:space-y-10 2xl:space-y-10"
     >
       <div className="flex flex-col justify-center items-center space-y-4">
