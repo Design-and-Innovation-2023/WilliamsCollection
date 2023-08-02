@@ -36,10 +36,10 @@ export default function ZoomWithRuth() {
                           <ul>
                             <li><strong>Colors and Engaging Visuals:</strong>  The application features a wide range of colors and visually interesting elements. The inclusion of bugs, which are very popular, adds to its appeal.
                             </li>
-                            <br/>
+                            <br />
                             <li><strong>Interactive Experience:</strong> Users are actively involved in the application as they have to find the answers themselves, enhancing engagement and interactivity.</li>
                           </ul>
-                          <br/>
+                          <br />
                           <p><strong>Cons</strong>
 
                           </p>
@@ -72,7 +72,7 @@ export default function ZoomWithRuth() {
                             <li><strong>Wide-ranging Scope: </strong> Application is not limited to a particular category or genre. Instead, it covers a broad range of topics, genres, or functionalities.
                             </li>
                           </ul>
-                          <br/>
+                          <br />
                           <p><strong>Cons</strong>
                           </p>
                           <ul>
@@ -146,7 +146,7 @@ export default function ZoomWithRuth() {
                   }}
                 >
                   <img
-                    src="/img/zoomWRuth.jpeg"
+                    src="img/zoomWRuth.jpeg"
                     alt="Zoom With Ruth"
                     style={{ width: "70%", height: "70%" }}
                   />

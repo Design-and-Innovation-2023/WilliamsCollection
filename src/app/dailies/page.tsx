@@ -25,7 +25,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -70,7 +70,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
 
@@ -130,7 +130,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
 
@@ -201,7 +201,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">jgrizou</span>
                         </div>
 
@@ -213,7 +213,7 @@ export default function Dailies() {
                           <div className="border-dotted border-2 border-white ">
                             <div className="flex flex-wrap items-center text-white">
                               <img
-                                src="/img/accountIcon.png"
+                                src="img/accountIcon.png"
                                 alt="Account Icon"
                               />
                               <span className="ml-2">Team 3A</span>
@@ -230,7 +230,7 @@ export default function Dailies() {
                           <div className="border-dotted border-2 border-white ">
                             <div className="flex flex-wrap items-center text-white">
                               <img
-                                src="/img/accountIcon.png"
+                                src="img/accountIcon.png"
                                 alt="Account Icon"
                               />
                               <span className="ml-2">Team 3A</span>
@@ -261,7 +261,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -314,7 +314,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -341,7 +341,7 @@ export default function Dailies() {
                             collection for bugs:{" "}
                           </p>
                           <img
-                            src="/img/bug_game_idea.jpeg"
+                            src="imgbug_game_idea.jpeg"
                             alt="Bug Game Idea"
                             style={{ width: "50%", height: "50%" }}
                           />
@@ -368,7 +368,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -384,7 +384,7 @@ export default function Dailies() {
                           <br></br>
                           <p>One hi-fi prototype example we did:</p>
                           <img
-                            src="/img/24thJulyHi-FI.png"
+                            src="img/24thJulyHi-FI.png"
                             alt="24th July Hi-Fi"
                             style={{ width: "20%", height: "20%" }}
                           />
@@ -406,7 +406,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -436,7 +436,7 @@ export default function Dailies() {
                           </p>
                           <br></br>
                           <img
-                            src="/img/25thJulyInTheMuseum.jpg"
+                            src="img/25thJulyInTheMuseum.jpg"
                             alt="25th July In The Museum"
                             style={{ width: "60%", height: "60%" }}
                           />
@@ -458,7 +458,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="imgountIcon.png" alt="Account Icon" />
                           <span className="ml-2">jgrizou</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -495,7 +495,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Yuxin</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -525,7 +525,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -556,7 +556,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Yuxin</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -581,7 +581,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -623,7 +623,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="imgaccountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -650,7 +650,7 @@ export default function Dailies() {
                           <br></br>
                           <div className="flex">
                             <img
-                              src="/img/28thJuly1.jpg"
+                              src="img/28thJuly1.jpg"
                               alt="28th July 1"
                               style={{
                                 width: "25%",
@@ -659,7 +659,7 @@ export default function Dailies() {
                               }}
                             />
                             <img
-                              src="/img/28thJuly2.jpg"
+                              src="img/28thJuly2.jpg"
                               alt="28th July 2"
                               style={{
                                 width: "25%",
@@ -668,7 +668,7 @@ export default function Dailies() {
                               }}
                             />
                             <img
-                              src="/img/28thJuly3.jpg"
+                              src="img28thJuly3.jpg"
                               alt="28th July 3"
                               style={{
                                 width: "25%",
@@ -679,7 +679,7 @@ export default function Dailies() {
                           </div>
                           <br></br>
                           <img
-                            src="/img/28thJuly4.jpg"
+                            src="img/28thJuly4.jpg"
                             alt="28th July 4"
                             style={{ width: "70%", height: "70%" }}
                           />
@@ -701,7 +701,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -719,7 +719,7 @@ export default function Dailies() {
                           <br></br>
                           <div className="flex">
                             <img
-                              src="/img/grpphoto.jpeg"
+                              src="img/grpphoto.jpeg"
                               alt="28th July 1"
                               style={{ width: "70%", height: "70%" }}
                             />
@@ -742,7 +742,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -778,7 +778,7 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <img src="/img/accountIcon.png" alt="Account Icon" />
+                          <img src="img/accountIcon.png" alt="Account Icon" />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">

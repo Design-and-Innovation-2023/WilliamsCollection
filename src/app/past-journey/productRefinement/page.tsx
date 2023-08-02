@@ -139,7 +139,7 @@ export default function productRefinement() {
                         <div className="prose max-w-none text-justify text-white">
                           <div>
                             <img
-                              src="/img/refinement.jpg"
+                              src="img/refinement.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
                             />
@@ -164,7 +164,7 @@ export default function productRefinement() {
                         <div className="prose max-w-none text-justify text-white">
                           <div>
                             <img
-                              src="/img/testingprototype.jpg"
+                              src="imgestingprototype.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
                             />
