@@ -104,7 +104,7 @@ export default function RequirementGathered() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <img
-                          src="/img/msg-959516274-445962 (2).jpg"
+                          src="img/msg-959516274-445962 (2).jpg"
                           alt="Wujie and nadiah in discussion"
                           style={{ width: "70%", height: "70%" }}
                         />
@@ -125,7 +125,7 @@ export default function RequirementGathered() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <img
-                          src="/img/bug_game_idea.jpeg"
+                          src="img/bug_game_idea.jpeg"
                           alt="Storyboard"
                           style={{ width: "70%", height: "70%" }}
                         />

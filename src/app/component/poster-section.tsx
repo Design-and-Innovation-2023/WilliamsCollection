@@ -57,43 +57,43 @@ const PosterSection: React.FC = () => {
       lg:w-9/12 flex justify-center items-center "
       >
         <img
-          src="/img/mockup/poster-withholder.png"
+          src="img/mockup/poster-withholder.png"
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12"
           onClick={handleOpen}
-        ></img>
+        ><img>
 
-        <img
-          src="/img/logo/poster-logo.svg"
-          className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
-        ></img>
-      </div>
-      <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
-        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
-          Unveil brielliance at our exhibition poster - a gateway to boundless
-          inspiration{" "}
-        </p>
-      </div>
+            <img
+              src="img/logo/poster-logo.svg"
+              className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
+            ><img>
+              </div>
+              <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
+                <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+                  Unveil brielliance at our exhibition poster - a gateway to boundless
+                  inspiration{" "}
+                </p>
+              </div>
 
-      <div className="flex  justify-center items-center space-x-4">
-        <Button
-          color="white"
-          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-4`}
-          size="md"
-          onClick={goMeetTeam}
-        >
-          Meet the Team
-        </Button>{" "}
-      </div>
-      <Dialog open={open} handler={handleOpen} size="sm">
-        <DialogBody className="bg-transparent">
-          <img
-            className="h-fit w-full object-contain object-center"
-            src="/img/mockup/poster-noframe.png"
-          />
-        </DialogBody>
-      </Dialog>
-    </motion.div>
-  );
+              <div className="flex  justify-center items-center space-x-4">
+                <Button
+                  color="white"
+                  className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-4`}
+                  size="md"
+                  onClick={goMeetTeam}
+                >
+                  Meet the Team
+                </Button>{" "}
+              </div>
+              <Dialog open={open} handler={handleOpen} size="sm">
+                <DialogBody className="bg-transparent">
+                  <img
+                    className="h-fit w-full object-contain object-center"
+                    src="img/mockup/poster-noframe.png"
+                  />
+                </DialogBody>
+              </Dialog>
+            </motion.div>
+            );
 };
 
-export default PosterSection;
+            export default PosterSection;

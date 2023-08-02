@@ -13,7 +13,7 @@ export default function MultiplayerGame() {
               <p className="text-lg leading-7 text-white">20th July 2023</p>
             </div>
             <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-            <li className="py-12">
+              <li className="py-12">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
@@ -25,9 +25,9 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          The game is a multiplayer co-op where two players work together. One player gathers information 
-                          from Part A location, and the other player gathers information from Part B location. To win, they 
-                          must collaborate and share their findings to uncover the full information. Teamwork is essential 
+                          The game is a multiplayer co-op where two players work together. One player gathers information
+                          from Part A location, and the other player gathers information from Part B location. To win, they
+                          must collaborate and share their findings to uncover the full information. Teamwork is essential
                           for success.
                         </div>
                       </div>
@@ -96,7 +96,7 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
 
-                        <img src="/img/jwandky.jpeg" alt="Junwei and Keiyang in discussion"  style={{ width: '70%', height: '70%'}}/>
+                        <img src="img/jwandky.jpeg" alt="Junwei and Keiyang in discussion" style={{ width: '70%', height: '70%' }} />
 
                       </div>
                     </div>
@@ -115,7 +115,7 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
 
-                        <img src="/img/coop_storyboard.jpeg" alt="Coop Storyboard"  style={{ width: '70%', height: '70%'}}/>
+                        <img src="img/coop_storyboard.jpeg" alt="Coop Storyboard" style={{ width: '70%', height: '70%' }} />
 
                       </div>
                     </div>
@@ -139,7 +139,7 @@ export default function MultiplayerGame() {
                           <p>Click <a className="text-amber-600" href={"https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=11%3A9&mode=design&t=3Vr3xWx0QV8B4HLs-1"}>here</a> for the figma</p>
                         </div>
 
-                       </div>
+                      </div>
                     </div>
                   </div>
                 </article>

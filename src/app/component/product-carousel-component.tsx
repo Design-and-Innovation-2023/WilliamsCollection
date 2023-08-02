@@ -53,7 +53,7 @@ const ProductCarouselComponent: React.FC = () => {
             href="http://junwei9955.pythonanywhere.com"
             className="flex flex-col justify-center items-center space-x-4"
           >
-            <img src="/img/gamewebsite-qrcode.svg" className="w-32" />
+            <img src="img/gamewebsite-qrcode.svg" className="w-32" />
           </Link>{" "}
           <Button
             variant="text"

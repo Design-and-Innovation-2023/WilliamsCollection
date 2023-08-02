@@ -45,31 +45,31 @@ const MainFirstSection: React.FC = () => {
       <div className="flex flex-col justify-center items-center space-y-4">
         <div className=" w-5/12 md:w-3/12 2xl:w-2/12">
           <img
-            src="/img/logo/main-wc-logo-notext.svg"
+            src="img/logo/main-wc-logo-notext.svg"
             className="object-cover"
-          ></img>
-        </div>
+          ><img>
+            </div>
 
-        <div className="w-10/12">
-          <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
-            Explore the Marvels of the Museum with William's Collection!
-          </p>
-          <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
-            An immersive Quest Awaits
-          </p>
+            <div className="w-10/12">
+              <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+                Explore the Marvels of the Museum with William's Collection!
+              </p>
+              <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+                An immersive Quest Awaits
+              </p>
+            </div>
         </div>
-      </div>
-      <div className="flex flex-col justify-center items-center">
-        <Button
-          variant="text"
-          className={`text-white text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg p-3 xl:p-6 2xl:p-6`}
-          size="md"
-          onClick={handleClick}
-          color="white"
-        >
-          Explore Our Product
-        </Button>{" "}
-      </div>
+        <div className="flex flex-col justify-center items-center">
+          <Button
+            variant="text"
+            className={`text-white text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg p-3 xl:p-6 2xl:p-6`}
+            size="md"
+            onClick={handleClick}
+            color="white"
+          >
+            Explore Our Product
+          </Button>{" "}
+        </div>
     </motion.div>
   );
 };
