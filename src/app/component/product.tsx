@@ -2,9 +2,8 @@ import React, { useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import ProductCarousel from "./carousel";
 import Link from "next/link";
-import Modal from "react-bootstrap/Modal";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import Button from "react-bootstrap/Button";
+import { Button } from "@material-tailwind/react";
 
 const ProductComponent: React.FC = () => {
   const controls = useAnimation();
@@ -67,7 +66,6 @@ const ProductComponent: React.FC = () => {
 
       <div className="flex flex-col justify-center items-center">
         <Button
-          variant="primary"
           className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-6`}
           size="lg"
           onClick={handleClick}

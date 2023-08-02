@@ -2,58 +2,73 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import ProductCarousel from "./carousel";
 import Link from "next/link";
+import {
+  Button,
+  Dialog,
+  DialogHeader,
+  DialogBody,
+  DialogFooter,
+} from "@material-tailwind/react";
 
 const DesignIdeas: React.FC = () => {
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => setOpen(!open);
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col justify-center items-center "
-      id="product-section"
+      className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto space-y-16  sm:space-y-28  md:space-y-28 lg:space-y-16 xl:space-y-16 2xl:space-y-10"
+      id="design-ideas-section"
     >
-      <div className=" w-5/6 md:3/6 lg:2/6">
+      <div
+        className="flex flex-col justify-center 
+      items-center w-11/12 sm:w-4/12 md:w-8/12 
+      lg:w-9/12 flex justify-center items-center "
+      >
         <img
-          src="/img/phone-webapp/product-showcase.png"
-          className="object-cover"
+          src="/img/mockup/design-idea-mockup.webp"
+          className="object-cover w-10/12 md:w-9/12  xl:w-5/12"
         ></img>
-        s
+
+        <img
+          src="/img/logo/design-idea.svg"
+          className="object-cover   w-8/12 sm:w-8/12 md:w-6/12 lg:w-4/12 xl:w-5/12  2xl:w-3/12 pt-5"
+        ></img>
       </div>
-      <div className="w-2/6  sm:3/6 md:2/6 lg:1/6">
-        <img src="/img/product-section-logo.svg" className="object-cover"></img>
-      </div>
-      <div className=" w-5/6 mt-5 mb-5">
-        <h2 className="text-white text-sm sm:text-l md:text-xl text-center">
-          An interactive and enriching experience for young visitors to collect
-          virtual artefact into their personal collection when they visit The
-          Hunterian Museum.{" "}
-        </h2>
-      </div>
-      <div className="w-4/6 flex flex-col justify-center items-center">
-        <button
-          className="rounded-full text-white bg-amber-500 p-5 font-bold text-base md:text-lg lg:text-xl sm:text-md"
-          // onClick={handleClick}
-        >
-          {" "}
-          View More About our Product
-        </button>
-        <Link
-          className="text-white p-5 font-bold text-base text-center"
-          // onClick={handleClick}
-          href="http://junwei9955.pythonanywhere.com"
-        >
-          {" "}
-          Go to Game
-        </Link>
-        <p className="text-white p-1 font-bold text-sm text-center">
-          {" "}
-          Play this in a mobile for the fullest experience
-        </p>
-        <p className=" text-white p-2 font-bold text-sm text-center">
-          {" "}
-          Scroll down for our Design Idea{" "}
+      <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
+        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+          "The Power of Design Thinking: From Ideas to Figma Realisation" -
+          Witness the application of design thinking principles as we transform
+          initial concepts into tangible hi-fi prototypes, with Figma serving as
+          the ultimate platform for realisation.{" "}
         </p>
       </div>
+
+      <div className="flex  justify-center items-center space-x-4">
+        <Button
+          color="white"
+          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-6`}
+          size="md"
+          onClick={handleOpen}
+        >
+          Zoom in on Storyboard
+        </Button>{" "}
+        <Button
+          color="white"
+          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-6`}
+          size="lg"
+          // onClick={handleClick}
+        >
+          Figma
+        </Button>{" "}
+      </div>
+      <Dialog open={open} handler={handleOpen} size="lg">
+        <DialogBody>
+          <img src="/img/bug_game_idea.jpeg" />
+        </DialogBody>
+      </Dialog>
     </motion.div>
   );
 };
