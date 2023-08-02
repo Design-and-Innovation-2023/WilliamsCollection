@@ -10,7 +10,7 @@ const OurJourneyStartSection: React.FC = () => {
       animate={{ opacity: 2 }}
       exit={{ opacity: 0 }}
       id="journey-start-section"
-      className="pt-10 h-screen flex flex-col justify-end items-center"
+      className="pt-10 w-screen h-screen flex flex-col justify-end items-center"
     >
       <motion.div
         // initial={{ scale: -5 }}

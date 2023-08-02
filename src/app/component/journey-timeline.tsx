@@ -8,16 +8,6 @@ import Link from "next/link";
 const TimelineJourneyComponent: React.FC = () => {
   return (
     <VerticalTimeline className="mr-0">
-      {/* <VerticalTimelineElement
-      className="vertical-timeline-element--work"
-      // contentStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
-      // contentArrowStyle={{ borderRight: '7px solid  rgba(82, 71, 59,1)' }}
-      date="2011 - present"
-      // iconStyle={{ background: 'rgba(82, 71, 59,1)', color: '#fff' }}
-    // icon={<WorkIcon />}
-    >
-      <Card emoji="👋" hueA={0} hueB={120} />
-    </VerticalTimelineElement> */}
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2010 - 2011"
@@ -114,7 +104,8 @@ const TimelineJourneyComponent: React.FC = () => {
           the initial QR code matches the object's QR code, they win the game.
         </p>
         <p>
-          Click <Link href="/code-trivia">here</Link> for more information on the game!
+          Click <Link href="/code-trivia">here</Link> for more information on
+          the game!
         </p>
       </VerticalTimelineElement>
 

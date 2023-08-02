@@ -39,27 +39,34 @@ const MainFirstSection: React.FC = () => {
       initial={{ opacity: 1 }}
       animate={controls}
       exit={{ opacity: 1 }}
-      className="flex flex-col justify-center items-center h-screen w-screen mt-auto mb-auto space-y-16  sm:space-y-28  md:space-y-28 lg:space-y-16 xl:space-y-16 2xl:space-y-20"
+      className="flex flex-col justify-center items-center w-screen  h-screen mt-0 pb-40 mb-auto space-y-10  sm:space-y-10  md:space-y-10 lg:space-y-10 xl:space-y-10 2xl:space-y-10"
     >
-      <div className="w-5/12 md:w-3/12 2xl:w-2/12">
-        <img src="/img/logo/main-wc-logo.svg" className="object-cover"></img>
-      </div>
+      <div className="flex flex-col justify-center items-center space-y-4">
+        <div className=" w-5/12 md:w-3/12 2xl:w-2/12">
+          <img
+            src="/img/logo/main-wc-logo-notext.svg"
+            className="object-cover"
+          ></img>
+        </div>
 
-      <div className="w-3/4 md:w-3/4 2xl:w-4/12">
-        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
-          An Interactive & Enriching experience for young visitors to collect
-          virtual artefacts into personal collection when they visit The
-          Hunterian Museum.
-        </p>
+        <div className="w-10/12">
+          <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+            Explore the Marvels of the Museum with William's Collection!
+          </p>
+          <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+            An immersive Quest Awaits
+          </p>
+        </div>
       </div>
       <div className="flex flex-col justify-center items-center">
         <Button
           variant="text"
-          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl rounded-full p-3 xl:p-6 2xl:p-6`}
-          size="lg"
+          className={`text-white text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg p-3 xl:p-6 2xl:p-6`}
+          size="md"
           onClick={handleClick}
+          color="white"
         >
-          Click to see our product
+          Explore Our Product
         </Button>{" "}
       </div>
     </motion.div>

@@ -8,9 +8,9 @@ import "swiper/css/navigation";
 
 export default function ProductCarousel() {
   return (
-    <div className="container flex justify-center items-center">
+    <div className="flex justify-center items-center">
       <Swiper
-        className="w-3/6 md:w-3/12 2xl:w-2/12"
+        className="w-3/6 md:w-3/12 lg:w-40"
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}

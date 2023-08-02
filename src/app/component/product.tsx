@@ -38,7 +38,7 @@ const ProductComponent: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto space-y-16  sm:space-y-28  md:space-y-28 lg:space-y-16 xl:space-y-16 2xl:space-y-10"
+      className="flex flex-col justify-center items-center w-screen h-screen mt-0 mb-auto space-y-16  sm:space-y-28  md:space-y-8 "
       id="product-section"
     >
       <div

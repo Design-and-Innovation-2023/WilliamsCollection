@@ -42,7 +42,7 @@ const ProductCarouselComponent: React.FC = () => {
       className="flex flex-col justify-center items-center w-screen h-screen mt-auto mb-auto"
       id="product-moreinfo-section"
     >
-      <div className="flex flex-col justify-center items-center space-y-16  sm:space-y-28  md:space-y-10 lg:space-y-10 xl:space-y-10 2xl:space-y-10">
+      <div className="flex flex-col justify-center items-center space-y-6">
         <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
           {" "}
           Swipe left / right{" "}

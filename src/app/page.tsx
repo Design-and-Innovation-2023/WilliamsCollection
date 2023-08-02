@@ -7,6 +7,8 @@ import MainFirstSection from "./component/main-first-section";
 import OurJourneySection from "./component/our-journey-timeline";
 import DesignIdeas from "./component/design-ideas";
 import ProductCarouselComponent from "./component/product-carousel-component";
+import PosterSection from "./component/poster-section";
+import MeetTheTeam from "./component/meet-the-team";
 
 import { motion, useAnimation } from "framer-motion";
 import {
@@ -18,9 +20,36 @@ import {
   Card,
   Collapse,
 } from "@material-tailwind/react";
+import MeetTheTeamMember from "./component/meet-the-team-member";
+
 export default function Home() {
   const [openNav, setOpenNav] = React.useState(false);
+  const controls = useAnimation();
 
+  const goMeetTeam = async () => {
+    // Scroll to Section 3
+    const element = document.getElementById("meet-the-team-section");
+    if (element) {
+      await controls.start({
+        opacity: 0,
+        transition: { duration: 0.3 },
+      });
+
+      const handleScrollEnd = () => {
+        controls.start({
+          opacity: 1,
+          transition: { duration: 0.3 },
+        });
+        element.removeEventListener("scroll", handleScrollEnd);
+      };
+
+      element.scrollIntoView({ behavior: "smooth" });
+      await controls.start({
+        opacity: 1,
+        transition: { duration: 5 },
+      });
+    }
+  };
   React.useEffect(() => {
     window.addEventListener(
       "resize",
@@ -29,15 +58,15 @@ export default function Home() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="opacity-100 mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
+        <a href="#" className="flex items-center text-amber-500">
+          Product
         </a>
       </Typography>
       <Typography
@@ -46,8 +75,8 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Account
+        <a href="#" className="flex items-center text-amber-500">
+          Our Design
         </a>
       </Typography>
       <Typography
@@ -56,8 +85,8 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Blocks
+        <a href="#" className="flex items-center text-amber-500">
+          Meet the Team
         </a>
       </Typography>
       <Typography
@@ -66,8 +95,8 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Docs
+        <a href="#" className="flex items-center text-amber-500">
+          Our Journey
         </a>
       </Typography>
     </ul>
@@ -76,15 +105,16 @@ export default function Home() {
     <main>
       <div className="h-screen w-screen overflow-y-scroll overflow-x-hidden">
         <div className="h-screen w-screen flex flex-wrap">
-          <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+          <Navbar
+            blurred={false}
+            color="transparent"
+            className="mx-auto max-w-screen-xl px-6 py-3"
+          >
             <div className="flex items-center justify-between text-blue-gray-900">
-              <Typography
-                as="a"
-                href="#"
-                className="mr-4 cursor-pointer py-1.5 font-medium"
-              >
-                Material Tailwind
-              </Typography>
+              <img
+                src="/img/logo/main-wc-logo.svg"
+                className="opacity-100 w-36 px-4"
+              />
               <div className="flex items-center gap-4">
                 <div className="mr-4 hidden lg:block">{navList}</div>
 
@@ -100,7 +130,7 @@ export default function Home() {
                       fill="none"
                       className="h-6 w-6"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
+                      stroke="white"
                       strokeWidth={2}
                     >
                       <path
@@ -114,7 +144,7 @@ export default function Home() {
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"
                       fill="none"
-                      stroke="currentColor"
+                      stroke="white"
                       strokeWidth={2}
                     >
                       <path
@@ -127,17 +157,15 @@ export default function Home() {
                 </IconButton>
               </div>
             </div>
-            <MobileNav open={openNav}>
-              {navList}
-              <Button variant="gradient" size="sm" fullWidth className="mb-2">
-                <span>Buy Now</span>
-              </Button>
-            </MobileNav>
+            <Collapse open={openNav}>{navList}</Collapse>
           </Navbar>
           <MainFirstSection />
           <ProductComponent />
           <ProductCarouselComponent />
           <DesignIdeas />
+          <PosterSection />
+          <MeetTheTeam />
+          <MeetTheTeamMember />
           <OurJourneyStartSection />
           <OurJourneySection />
         </div>
