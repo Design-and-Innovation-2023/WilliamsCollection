@@ -5,8 +5,10 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import Image from "next/image";
 export default function ProductCarousel() {
+  const width = 400;
+  const height = 400;
   return (
     <div className="flex justify-center items-center">
       <Swiper
@@ -32,42 +34,91 @@ export default function ProductCarousel() {
         style={{ overflow: "initial" }}
       >
         <SwiperSlide>
-          <img src="/img/phone-webapp/phone/loading.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/start.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/spinning.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/quizq1hint.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/quizq1.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/quizq2.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/quizq3.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="/img/phone-webapp/phone/quiz-complete.png" alt="SwipeImg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="/img/phone-webapp/phone/collection-item-info.png"
+          <Image
+            src="/img/phone-webapp/phone/loading.png"
             alt="SwipeImg"
+            width={width}
+            height={height}
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/img/phone-webapp/phone/emptybasket.png" alt="SwipeImg" />
+          <Image
+            src="/img/phone-webapp/phone/start.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img
+          <Image
+            src="/img/phone-webapp/phone/spinning.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/quizq1hint.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/quizq1.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/quizq2.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/quizq3.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/quiz-complete.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/collection-item-info.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/img/phone-webapp/phone/emptybasket.png"
+            alt="SwipeImg"
+            width={width}
+            height={height}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
             src="/img/phone-webapp/phone/today-basketfilled.png"
             alt="SwipeImg"
+            width={width}
+            height={height}
           />
         </SwiperSlide>
       </Swiper>
