@@ -113,7 +113,7 @@ export default function BrainstormW3B() {
                                 in their very own collection.
                               </p>
                               <p>
-                                Click <a className="text-amber-600">here</a> for
+                                Click <a className="text-amber-600" href="/past-journey/bugCollectibles">here</a> for
                                 the prototype
                               </p>
                               <br></br>
@@ -129,7 +129,7 @@ export default function BrainstormW3B() {
                                 code to answer the quiz and gain points.
                               </p>
                               <p>
-                                Click <a className="text-amber-600">here</a> for
+                                Click <a className="text-amber-600" href="/past-journey/code-trivia">here</a> for
                                 the prototype
                               </p>
                               <br></br>
@@ -146,7 +146,7 @@ export default function BrainstormW3B() {
                                 exhibit”
                               </p>
                               <p>
-                                Click <a className="text-amber-600">here</a> for
+                                Click <a className="text-amber-600" href="/past-journey/MultiplayerGame">here</a> for
                                 the prototype
                               </p>
                             </ul>
