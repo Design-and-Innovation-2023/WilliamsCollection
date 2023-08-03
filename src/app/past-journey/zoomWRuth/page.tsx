@@ -146,7 +146,7 @@ export default function ZoomWithRuth() {
                   }}
                 >
                   <img
-                    src="/img/zoomWRuth.jpeg"
+                    src="img/zoomWRuth.jpeg"
                     alt="Zoom With Ruth"
                     style={{ width: "70%", height: "70%" }}
                   />

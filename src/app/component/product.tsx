@@ -47,12 +47,12 @@ const ProductComponent: React.FC = () => {
       lg:w-7/12 flex justify-center items-center "
       >
         <img
-          src="/img/phone-webapp/product-showcase.png"
+          src="img/phone-webapp/product-showcase.png"
           className="object-cover w-10/12 md:w-8/12 lg:w-7/12 xl:w-5/12"
         ></img>
 
         <img
-          src="/imgproduct-section-logo.svg"
+          src="imgproduct-section-logo.svg"
           className="object-cover  w-8/12 sm:w-8/12 md:w-6/12 lg:w-6/12 xl:w-4/12"
         ></img>
       </div>

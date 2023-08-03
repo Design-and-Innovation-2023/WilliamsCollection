@@ -183,7 +183,7 @@ export default function RequirementGathered() {
                 <article>
                   <div className="flex">
                     <img
-                      src="/img/rq2.jpeg"
+                      src="img/rq2.jpeg"
                       alt="RQ2"
                       style={{
                         width: "50%",
@@ -192,7 +192,7 @@ export default function RequirementGathered() {
                       }}
                     />
                     <img
-                      src="/img/rq1.jpeg"
+                      src="img/rq1.jpeg"
                       alt="RQ1"
                       style={{
                         width: "50%",
