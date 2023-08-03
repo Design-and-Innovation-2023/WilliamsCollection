@@ -39,7 +39,7 @@ const ProductComponent: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="flex flex-col justify-center items-center w-screen h-screen mt-0 mb-auto space-y-16  sm:space-y-28  md:space-y-8 "
+      className="flex flex-col justify-center items-center w-screen h-screen mt-0 mb-auto space-y-8  sm:space-y-8  md:space-y-8 "
       id="product-section"
     >
       <div
@@ -79,8 +79,10 @@ const ProductComponent: React.FC = () => {
 
       <div className="flex flex-col justify-center items-center">
         <Button
-          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-6`}
-          size="lg"
+          variant="filled"
+          className={`text-white text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg p-3 xl:p-3`}
+          size="md"
+          color="amber"
           onClick={handleClick}
         >
           Show More

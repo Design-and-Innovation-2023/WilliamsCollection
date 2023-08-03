@@ -6,9 +6,18 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import Link from "next/link";
-import Image from "next/image";
 import { LiaBrainSolid } from "react-icons/lia";
 import { GoChecklist } from "react-icons/go";
+import {
+  SiHandshakeProtocol,
+  SiGoogleoptimize,
+  SiMeetup,
+  SiTestinglibrary,
+  SiSquarespace,
+} from "react-icons/si";
+import { MdDeveloperMode } from "react-icons/md";
+import { GiVideoConference } from "react-icons/gi";
+import Image from "next/image";
 const OurJourneySection: React.FC = () => {
   return (
     <motion.div
@@ -22,7 +31,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="19th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
           // icon={<WorkIcon />}
           icon={<GoChecklist />}
         >
@@ -54,8 +63,7 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="20th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
           icon={<LiaBrainSolid />}
         >
           <h1 className="vertical-timeline-element-title font-bold">
@@ -87,8 +95,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="20th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiHandshakeProtocol />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             Prototype/Storyboard
@@ -121,8 +129,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="20th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiHandshakeProtocol />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             Prototype/Storyboard
@@ -150,8 +158,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="20th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiHandshakeProtocol />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             Prototype/Storyboard
@@ -181,8 +189,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="24th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<GiVideoConference />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             Sharing Session with Ruth
@@ -216,8 +224,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="24th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiGoogleoptimize />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             Product Refinement
@@ -254,8 +262,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="25th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiTestinglibrary />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             Testing prototype at the Museum
@@ -285,8 +293,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="27th July 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiMeetup />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             {" "}
@@ -308,8 +316,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="28th July 2023 -"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<MdDeveloperMode />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             {" "}
@@ -333,8 +341,8 @@ const OurJourneySection: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="1st August 2023"
-          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiTestinglibrary />}
         >
           <h3 className="vertical-timeline-element-title font-bold">
             {" "}
@@ -364,6 +372,35 @@ const OurJourneySection: React.FC = () => {
             </Link>
             !
           </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="3rd August 2023"
+          iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#FFC107" }}
+          icon={<SiSquarespace />}
+        >
+          <h3 className="vertical-timeline-element-title font-bold">
+            {" "}
+            Exhibition
+          </h3>
+
+          <p>
+            After an challenging yet fulfilling journey, today marks the end of
+            the journey with an exhibition. It stands as a testament to our
+            dedication and creativity, and we feel a mix of accomplishment,
+            relief. The memories we've created and the lessons we've learned
+            will continue to inspire us on new adventures, knowing that this
+            closing is just the beginning of what lies ahead.
+          </p>
+
+          <Image
+            src="/WilliamsCollection/img/team/grpexhibitionphoto.jpg"
+            className="mt-4"
+            alt="Exhibition Group photo"
+            width={1280}
+            height={960}
+          />
         </VerticalTimelineElement>
       </VerticalTimeline>
     </motion.div>

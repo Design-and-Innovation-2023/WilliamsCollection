@@ -3,7 +3,7 @@ import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { Button } from "@material-tailwind/react";
 import Image from "next/image";
-
+import CustomButton from "./buttons";
 const MainFirstSection: React.FC = () => {
   const controls = useAnimation();
 
@@ -58,21 +58,13 @@ const MainFirstSection: React.FC = () => {
           <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
             Explore the Marvels of the Museum with William's Collection!
           </p>
-          <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+          <p className="text-white text-sm sm:text-lg md:text-lg text-center">
             An immersive Quest Awaits
           </p>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <Button
-          variant="text"
-          className={`text-white text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg p-3 xl:p-6 2xl:p-6`}
-          size="md"
-          onClick={handleClick}
-          color="white"
-        >
-          Explore Our Product
-        </Button>{" "}
+        <CustomButton onClick={handleClick}> Explore Our Product</CustomButton>
       </div>
     </motion.div>
   );

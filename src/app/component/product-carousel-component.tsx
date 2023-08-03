@@ -49,7 +49,7 @@ const ProductCarouselComponent: React.FC = () => {
           Swipe left / right{" "}
         </p>
         <ProductCarousel />
-        <div className="flex flex-col justify-center items-center space-x-4">
+        <div className="flex flex-col justify-center items-center space-x-4 space-y-6">
           <Link
             href="http://junwei9955.pythonanywhere.com"
             className="flex flex-col justify-center items-center space-x-4"
@@ -63,11 +63,11 @@ const ProductCarouselComponent: React.FC = () => {
             />
           </Link>{" "}
           <Button
-            variant="text"
-            className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl mt-6 p-3 xl:p-6 2xl:p-6`}
+            variant="filled"
+            className={`text-white text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg p-3 xl:p-3`}
             size="md"
+            color="amber"
             onClick={handleClick}
-            color="white"
           >
             Explore Design Ideas
           </Button>{" "}

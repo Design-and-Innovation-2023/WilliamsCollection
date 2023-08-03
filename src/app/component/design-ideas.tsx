@@ -10,7 +10,7 @@ import {
   DialogBody,
   DialogFooter,
 } from "@material-tailwind/react";
-
+import CustomButton from "./buttons";
 const DesignIdeas: React.FC = () => {
   const [open, setOpen] = React.useState(false);
   const controls = useAnimation();
@@ -82,31 +82,14 @@ const DesignIdeas: React.FC = () => {
       </div>
 
       <div className="flex  justify-center items-center space-x-4">
-        <Button
-          color="white"
-          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-4`}
-          size="md"
-          onClick={handleOpen}
-        >
-          Zoom in on Storyboard
-        </Button>{" "}
-        <Button
-          color="white"
-          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-4`}
-          size="lg"
-        >
+        <CustomButton onClick={handleOpen}> Storyboard</CustomButton>
+        <CustomButton onClick={goPoster}> Poster</CustomButton>
+        <CustomButton>
+          {" "}
           <Link href="https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=18%3A2&mode=design&t=Va9JcGmi3LvZrBL6-1">
             Figma
           </Link>
-        </Button>{" "}
-        <Button
-          color="white"
-          className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-xl 2xl:text-xl bg-amber-500 rounded-full p-3 xl:p-6 2xl:p-4`}
-          size="md"
-          onClick={goPoster}
-        >
-          See Our Poster
-        </Button>{" "}
+        </CustomButton>
       </div>
       <Dialog open={open} handler={handleOpen} size="lg">
         <DialogBody>

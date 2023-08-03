@@ -12,6 +12,7 @@ import MeetTheTeam from "./component/meet-the-team";
 import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
+import { SimpleFooter } from "./component/footer";
 import {
   Navbar,
   MobileNav,
@@ -235,6 +236,7 @@ export default function Home() {
           <MeetTheTeamMember />
           <OurJourneyStartSection />
           <OurJourneySection />
+          <SimpleFooter />
         </div>
       </div>
     </main>
