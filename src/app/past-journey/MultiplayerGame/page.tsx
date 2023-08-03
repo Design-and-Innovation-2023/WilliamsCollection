@@ -153,7 +153,7 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <Image
-                          src="imgcoop_storyboard.jpeg"
+                          src="/WilliamsCollection/img/coop_storyboard.jpeg"
                           alt="Coop Storyboard"
                           style={{ width: "70%", height: "70%" }}
                           width={400}

@@ -127,7 +127,7 @@ export default function RequirementGathered() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <Image
-                          src="imgbug_game_idea.jpeg"
+                          src="/WilliamsCollection/img/bug_game_idea.jpeg"
                           alt="Storyboard"
                           style={{ width: "70%", height: "70%" }}
                           width={400}

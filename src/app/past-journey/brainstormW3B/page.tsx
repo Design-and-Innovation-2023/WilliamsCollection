@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export default function BrainstormW3B() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -114,12 +115,12 @@ export default function BrainstormW3B() {
                               </p>
                               <p>
                                 Click{" "}
-                                <a
+                                <Link
                                   className="text-amber-600"
                                   href="/past-journey/bugCollectibles"
                                 >
                                   here
-                                </a>{" "}
+                                </Link>{" "}
                                 for the prototype
                               </p>
                               <br></br>
@@ -136,12 +137,12 @@ export default function BrainstormW3B() {
                               </p>
                               <p>
                                 Click{" "}
-                                <a
+                                <Link
                                   className="text-amber-600"
                                   href="/past-journey/code-trivia"
                                 >
                                   here
-                                </a>{" "}
+                                </Link>{" "}
                                 for the prototype
                               </p>
                               <br></br>
@@ -184,7 +185,7 @@ export default function BrainstormW3B() {
                   }}
                 >
                   <Image
-                    src="imgbrainstormSession.jpg"
+                    src="/WilliamsCollection/img/brainstormSession.jpg"
                     alt="BrainstormSession"
                     style={{ width: "70%", height: "70%" }}
                     width={400}

@@ -166,7 +166,7 @@ export default function productRefinement() {
                         <div className="prose max-w-none text-justify text-white">
                           <div>
                             <Image
-                              src="imgestingprototype.jpg"
+                              src="/WilliamsCollection/img/testingprototype.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
                               width={400}

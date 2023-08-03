@@ -129,13 +129,39 @@ export default function Home() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a
+        <Link
           href="#"
-          onClick={(e: any) => goTo(listOfSectionId[0])}
+          onClick={(e: any) => goTo(listOfSectionId[5])}
           className="flex items-center text-amber-500"
         >
           Our Journey
-        </a>
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <Link
+          href="/past-journey/dailies"
+          className="flex items-center text-amber-500"
+        >
+          Dailies
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <Link
+          href="/past-journey/emailupdates"
+          className="flex items-center text-amber-500"
+        >
+          Email Updates
+        </Link>
       </Typography>
     </ul>
   );

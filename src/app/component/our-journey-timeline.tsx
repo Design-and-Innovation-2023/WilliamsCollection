@@ -6,6 +6,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import Link from "next/link";
+import Image from "next/image";
+import { LiaBrainSolid } from "react-icons/lia";
+import { GoChecklist } from "react-icons/go";
 const OurJourneySection: React.FC = () => {
   return (
     <motion.div
@@ -18,9 +21,10 @@ const OurJourneySection: React.FC = () => {
       <VerticalTimeline className="mr-0">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="19th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
+          icon={<GoChecklist />}
         >
           <h1 className="vertical-timeline-element-title font-bold">
             Requirement Gathering with Ruth
@@ -49,9 +53,10 @@ const OurJourneySection: React.FC = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="20th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
+          icon={<LiaBrainSolid />}
         >
           <h1 className="vertical-timeline-element-title font-bold">
             Brainstorming with Team 3B
@@ -81,7 +86,7 @@ const OurJourneySection: React.FC = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="20th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -115,7 +120,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="20th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -144,7 +149,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="20th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -175,7 +180,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="24th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -210,7 +215,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="24th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -279,7 +284,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="27th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >

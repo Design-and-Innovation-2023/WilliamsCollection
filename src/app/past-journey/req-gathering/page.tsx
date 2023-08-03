@@ -190,6 +190,8 @@ export default function RequirementGathered() {
                         height: "50%",
                         marginRight: "10px",
                       }}
+                      width={1280}
+                      height={681}
                     />
                     <Image
                       src="/WilliamsCollection/img/rq1.jpeg"
@@ -199,6 +201,8 @@ export default function RequirementGathered() {
                         height: "50%",
                         marginRight: "10px",
                       }}
+                      width={1280}
+                      height={681}
                     />
                   </div>
                 </article>

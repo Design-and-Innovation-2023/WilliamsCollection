@@ -64,7 +64,7 @@ const ProductCarouselComponent: React.FC = () => {
           </Link>{" "}
           <Button
             variant="text"
-            className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl  p-3 xl:p-6 2xl:p-6`}
+            className={`text-white text-sm sm:text-lg md:text-xl lg:text-lg xl:text-2xl 2xl:text-xl mt-6 p-3 xl:p-6 2xl:p-6`}
             size="md"
             onClick={handleClick}
             color="white"

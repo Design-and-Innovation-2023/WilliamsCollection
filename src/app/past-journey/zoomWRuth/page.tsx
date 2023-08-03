@@ -187,6 +187,8 @@ export default function ZoomWithRuth() {
                     src="/WilliamsCollection/img/zoomWRuth.jpeg"
                     alt="Zoom With Ruth"
                     style={{ width: "70%", height: "70%" }}
+                    width={1280}
+                    height={735}
                   />
                 </article>
               </li>

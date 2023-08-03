@@ -113,8 +113,8 @@ const DesignIdeas: React.FC = () => {
           <Image
             src="/WilliamsCollection/img/bug_game_idea.jpeg"
             alt="bug game idea"
-            width={400}
-            height={400}
+            width={1280}
+            height={960}
           />
         </DialogBody>
       </Dialog>
