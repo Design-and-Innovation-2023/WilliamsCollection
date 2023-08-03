@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function MultiplayerGame() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -25,10 +25,12 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          The game is a multiplayer co-op where two players work together. One player gathers information
-                          from Part A location, and the other player gathers information from Part B location. To win, they
-                          must collaborate and share their findings to uncover the full information. Teamwork is essential
-                          for success.
+                          The game is a multiplayer co-op where two players work
+                          together. One player gathers information from Part A
+                          location, and the other player gathers information
+                          from Part B location. To win, they must collaborate
+                          and share their findings to uncover the full
+                          information. Teamwork is essential for success.
                         </div>
                       </div>
                     </div>
@@ -56,24 +58,57 @@ export default function MultiplayerGame() {
                                 Team 3A
                               </p> */}
                               <ul>
-                                <li>1. When a family enters the museum, a parent would create a room and become the host.</li>
-                                <li>2. The rest of the family members would be able to join the room using the room code.</li>
-                                <li>3. When the host starts the room, each player would be given a random location that the
-                                  player needs to navigate to.</li>
-                                <li>4. There would also be a warning at the bottom of the screen to advice the kids to walk
-                                  slowly in the museum.</li>
-                                <li>5. When the player arrives at thier designated location, they would be asked questions
-                                  about the artifact at that location.</li>
-                                <li>6. After they correctly answer a question, they need to move to another location for the
-                                  next question.</li>
-                                <li>7. When everyone on the room completes all thier questions, they will return to the meeting
-                                  point.</li>
-                                <li>8. The host would then be able to start the final quiz after everyone is back.</li>
-                                <li>9. Questions would be asked about the artifacts they have just visited and the
-                                  person that visited that particular artifact would have to share about their knowledge
-                                  of the artifact so that everyone can answer the question correctly.</li>
-                                <li>10. When everyone have answered all the questions correctly, all the players would get a
-                                  digital badge to show that they have completed the game.</li>
+                                <li>
+                                  1. When a family enters the museum, a parent
+                                  would create a room and become the host.
+                                </li>
+                                <li>
+                                  2. The rest of the family members would be
+                                  able to join the room using the room code.
+                                </li>
+                                <li>
+                                  3. When the host starts the room, each player
+                                  would be given a random location that the
+                                  player needs to navigate to.
+                                </li>
+                                <li>
+                                  4. There would also be a warning at the bottom
+                                  of the screen to advice the kids to walk
+                                  slowly in the museum.
+                                </li>
+                                <li>
+                                  5. When the player arrives at thier designated
+                                  location, they would be asked questions about
+                                  the artifact at that location.
+                                </li>
+                                <li>
+                                  6. After they correctly answer a question,
+                                  they need to move to another location for the
+                                  next question.
+                                </li>
+                                <li>
+                                  7. When everyone on the room completes all
+                                  thier questions, they will return to the
+                                  meeting point.
+                                </li>
+                                <li>
+                                  8. The host would then be able to start the
+                                  final quiz after everyone is back.
+                                </li>
+                                <li>
+                                  9. Questions would be asked about the
+                                  artifacts they have just visited and the
+                                  person that visited that particular artifact
+                                  would have to share about their knowledge of
+                                  the artifact so that everyone can answer the
+                                  question correctly.
+                                </li>
+                                <li>
+                                  10. When everyone have answered all the
+                                  questions correctly, all the players would get
+                                  a digital badge to show that they have
+                                  completed the game.
+                                </li>
                               </ul>
                             </div>
                           </div>
@@ -82,7 +117,6 @@ export default function MultiplayerGame() {
                     </div>
                   </div>
                 </article>
-
               </li>
               <li className="py-12">
                 <article>
@@ -95,9 +129,11 @@ export default function MultiplayerGame() {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-
-                        <img src="img/jwandky.jpeg" alt="Junwei and Keiyang in discussion" style={{ width: '70%', height: '70%' }} />
-
+                        <Image
+                          src="/img/jwandky.jpeg"
+                          alt="Junwei and Keiyang in discussion"
+                          style={{ width: "70%", height: "70%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -114,9 +150,11 @@ export default function MultiplayerGame() {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-
-                        <img src="imgcoop_storyboard.jpeg" alt="Coop Storyboard" style={{ width: '70%', height: '70%' }} />
-
+                        <Image
+                          src="imgcoop_storyboard.jpeg"
+                          alt="Coop Storyboard"
+                          style={{ width: "70%", height: "70%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -133,12 +171,21 @@ export default function MultiplayerGame() {
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
-                        <div>
-                        </div>
+                        <div></div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
-                          <p>Click <a className="text-amber-600" href={"https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=11%3A9&mode=design&t=3Vr3xWx0QV8B4HLs-1"}>here</a> for the figma</p>
+                          <p>
+                            Click{" "}
+                            <a
+                              className="text-amber-600"
+                              href={
+                                "https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=11%3A9&mode=design&t=3Vr3xWx0QV8B4HLs-1"
+                              }
+                            >
+                              here
+                            </a>{" "}
+                            for the figma
+                          </p>
                         </div>
-
                       </div>
                     </div>
                   </div>

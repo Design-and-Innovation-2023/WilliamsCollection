@@ -2,6 +2,7 @@ import { motion, useAnimation } from "framer-motion";
 import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 const MainFirstSection: React.FC = () => {
   const controls = useAnimation();
@@ -44,10 +45,11 @@ const MainFirstSection: React.FC = () => {
     >
       <div className="flex flex-col justify-center items-center space-y-4">
         <div className=" w-5/12 md:w-3/12 2xl:w-2/12">
-          <img
-            src="img/logo/main-wc-logo-notext.svg"
+          <Image
+            src="/img/logo/main-wc-logo-notext.svg"
             className="object-cover"
-          ></img>
+            alt="main-wc-logo-notext"
+          />
         </div>
 
         <div className="w-10/12">

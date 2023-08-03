@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../page.module.css";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 const OurJourneyStartSection: React.FC = () => {
   const [scale, setScale] = useState(1);
   return (
@@ -18,10 +18,11 @@ const OurJourneyStartSection: React.FC = () => {
         // transition={{ delay: 1 }}
         className="flex flex-col justify-end items-center h-4/6 max-w-sm lg:max-w-lg 2xl:max-w-xl sm:mt-10 "
       >
-        <img
-          src="img/logo/our-journey-logo.svg"
+        <Image
+          src="/img/logo/our-journey-logo.svg"
           className="object-cover w-3/4 lg:w-screen"
-        ></img>
+          alt="our-journey-logo"
+        />
       </motion.div>
 
       <div className="w-5 flex flex-col justify-end items-center h-2/6">

@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import ProductCarousel from "./carousel";
 import Link from "next/link";
+import Image from "next/image";
 import type { DialogBodyStylesType } from "@material-tailwind/react";
 
 import {
@@ -56,16 +57,18 @@ const PosterSection: React.FC = () => {
       items-center w-11/12 sm:w-4/12 md:w-8/12 
       lg:w-9/12 flex justify-center items-center "
       >
-        <img
-          src="img/mockup/poster-withholder.png"
+        <Image
+          src="/img/mockup/poster-withholder.png"
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12"
           onClick={handleOpen}
-        ></img>
+          alt="poster"
+        />
 
-        <img
-          src="img/logo/poster-logo.svg"
+        <Image
+          src="/img/logo/poster-logo.svg"
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
-        ></img>
+          alt="poster-logo"
+        />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
         <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
@@ -86,9 +89,10 @@ const PosterSection: React.FC = () => {
       </div>
       <Dialog open={open} handler={handleOpen} size="sm">
         <DialogBody className="bg-transparent">
-          <img
+          <Image
             className="h-fit w-full object-contain object-center"
-            src="img/mockup/poster-noframe.png"
+            src="/img/mockup/poster-noframe.png"
+            alt="poster no frame"
           />
         </DialogBody>
       </Dialog>

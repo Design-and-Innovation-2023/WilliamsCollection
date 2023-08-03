@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import ProductCarousel from "./carousel";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Button,
   Dialog,
@@ -25,9 +26,9 @@ const MeetTheTeamMember: React.FC = () => {
     >
       <div className="grid gap-12 items-center md:grid-cols-3">
         <div className="space-y-4 text-center">
-          <img
+          <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="img/team/IzzDanial.jpeg"
+            src="/img/team/IzzDanial.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -37,15 +38,15 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Izz Danial</h4>
             <Link href="https://www.linkedin.com/in/izzdanial/">
               <IconButton>
-                <img src="img/logo/linkedin.svg" />
+                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
               </IconButton>
             </Link>
           </div>
         </div>
         <div className="space-y-4 text-center">
-          <img
+          <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-48 lg:h-48"
-            src="img/team/Nadiah.jpeg"
+            src="/img/team/Nadiah.jpeg"
             alt="man"
             loading="lazy"
             width="1000"
@@ -55,15 +56,15 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Nur Farah Nadiah</h4>
             <Link href="https://www.linkedin.com/in/farah-nadiah">
               <IconButton>
-                <img src="img/logo/linkedin.svg" />
+                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
               </IconButton>
             </Link>
           </div>
         </div>
         <div className="space-y-4 text-center">
-          <img
+          <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="img/team/Wujie.jpeg"
+            src="/img/team/Wujie.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -73,16 +74,16 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Chen Wu Jie</h4>
             <Link href="https://www.linkedin.com/in/wujie-chen-20b88422a">
               <IconButton>
-                <img src="img/logo/linkedin.svg" />
+                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
               </IconButton>
             </Link>
           </div>
         </div>
 
         <div className="space-y-4 text-center">
-          <img
+          <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="img/team/JunWei.jpeg"
+            src="/img/team/JunWei.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -92,15 +93,15 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Lim Jun Wei</h4>
             <Link href="https://www.linkedin.com/in/junwei10255">
               <IconButton>
-                <img src="img/logo/linkedin.svg" />
+                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
               </IconButton>
             </Link>
           </div>
         </div>
         <div className="space-y-4 text-center">
-          <img
+          <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="img/team/Lionel.jpeg"
+            src="/img/team/Lionel.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -110,15 +111,15 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Lionel Chew</h4>
             <Link href="https://www.linkedin.com/in/ccklionel">
               <IconButton>
-                <img src="img/logo/linkedin.svg" />
+                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
               </IconButton>
             </Link>
           </div>
         </div>
         <div className="space-y-4 text-center">
-          <img
+          <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="img/team/ky.jpg"
+            src="/img/team/ky.jpg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -128,7 +129,7 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Lim Kei Yiang</h4>
             <Link href="https://www.linkedin.com/in/keiyianglim/">
               <IconButton>
-                <img src="img/logo/linkedin.svg" />
+                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
               </IconButton>
             </Link>
           </div>

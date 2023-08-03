@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import ProductCarousel from "./carousel";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Button,
   Dialog,
@@ -57,19 +58,21 @@ const MeetTheTeam: React.FC = () => {
       items-center w-10/12 sm:w-4/12 md:w-7/12 
       lg:w-9/12 flex justify-center items-center "
       >
-        <img
-          src="img/logo/meet-the-team.svg"
+        <Image
+          src="/img/logo/meet-the-team.svg"
           className="object-cover w-10/12 md:w-9/12  xl:w-4/12"
-        ></img>
+          alt="meet-the-team"
+        />
       </div>
       <div
         className="flex flex-col justify-center 
       items-center w-11/12 sm:w-4/12 md:w-8/12 
       lg:w-9/12 flex justify-center items-center"
       >
-        <img
-          src="img/team/GrpPhoto.jpeg"
+        <Image
+          src="/img/team/GrpPhoto.jpeg"
           className="object-cover w-10/12 md:w-9/12  xl:w-5/12"
+          alt="team-photo"
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">

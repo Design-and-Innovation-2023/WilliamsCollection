@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function ZoomWithRuth() {
   return (
@@ -32,23 +33,37 @@ export default function ZoomWithRuth() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          <p><strong>Pros</strong></p>
-                          <ul>
-                            <li><strong>Colors and Engaging Visuals:</strong>  The application features a wide range of colors and visually interesting elements. The inclusion of bugs, which are very popular, adds to its appeal.
-                            </li>
-                            <br />
-                            <li><strong>Interactive Experience:</strong> Users are actively involved in the application as they have to find the answers themselves, enhancing engagement and interactivity.</li>
-                          </ul>
-                          <br />
-                          <p><strong>Cons</strong>
-
+                          <p>
+                            <strong>Pros</strong>
                           </p>
                           <ul>
-                            <li> <strong> Lack of Variety:</strong> The application is primarily focused on bugs and insects, which might limit its appeal to a specific audience and feels somewhat one-sided.
+                            <li>
+                              <strong>Colors and Engaging Visuals:</strong> The
+                              application features a wide range of colors and
+                              visually interesting elements. The inclusion of
+                              bugs, which are very popular, adds to its appeal.
+                            </li>
+                            <br />
+                            <li>
+                              <strong>Interactive Experience:</strong> Users are
+                              actively involved in the application as they have
+                              to find the answers themselves, enhancing
+                              engagement and interactivity.
                             </li>
                           </ul>
-
-
+                          <br />
+                          <p>
+                            <strong>Cons</strong>
+                          </p>
+                          <ul>
+                            <li>
+                              {" "}
+                              <strong> Lack of Variety:</strong> The application
+                              is primarily focused on bugs and insects, which
+                              might limit its appeal to a specific audience and
+                              feels somewhat one-sided.
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -67,16 +82,30 @@ export default function ZoomWithRuth() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          <p><strong>Pros</strong></p>
+                          <p>
+                            <strong>Pros</strong>
+                          </p>
                           <ul>
-                            <li><strong>Wide-ranging Scope: </strong> Application is not limited to a particular category or genre. Instead, it covers a broad range of topics, genres, or functionalities.
+                            <li>
+                              <strong>Wide-ranging Scope: </strong> Application
+                              is not limited to a particular category or genre.
+                              Instead, it covers a broad range of topics,
+                              genres, or functionalities.
                             </li>
                           </ul>
                           <br />
-                          <p><strong>Cons</strong>
+                          <p>
+                            <strong>Cons</strong>
                           </p>
                           <ul>
-                            <li> <strong>Embracing Positivity and Encouragement :</strong> The application feedback to user only cross and tick which is not very encouraging to age group from 8-11
+                            <li>
+                              {" "}
+                              <strong>
+                                Embracing Positivity and Encouragement :
+                              </strong>{" "}
+                              The application feedback to user only cross and
+                              tick which is not very encouraging to age group
+                              from 8-11
                             </li>
                           </ul>
                         </div>
@@ -97,21 +126,26 @@ export default function ZoomWithRuth() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          <p><strong>Question ask from Ruth</strong></p>
+                          <p>
+                            <strong>Question ask from Ruth</strong>
+                          </p>
                           <ul>
-                            <li>why do you need to create a room?
-                            </li>
-                            <li>Can you play without it being multiplayer?
-                            </li>
+                            <li>why do you need to create a room?</li>
+                            <li>Can you play without it being multiplayer?</li>
                             <li>What happens if the family only has 1 kids?</li>
-                            <li>Not sure if this game will match terribly well with how ppl carry out their visits
+                            <li>
+                              Not sure if this game will match terribly well
+                              with how ppl carry out their visits
                             </li>
-                            <li>Seems only works well if there is a large grp/ or an organisation came
+                            <li>
+                              Seems only works well if there is a large grp/ or
+                              an organisation came
                             </li>
-                            <li>The picture disappear when you've got the big tick (its strange)</li>
+                            <li>
+                              The picture disappear when you've got the big tick
+                              (its strange)
+                            </li>
                           </ul>
-
-
                         </div>
                       </div>
                     </div>
@@ -130,7 +164,11 @@ export default function ZoomWithRuth() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify">
-                          <p>After the zoom session, our team have decided to combine our Bug Collectibles idea with our Qr Code Quiz Trivia idea into a single idea.</p>
+                          <p>
+                            After the zoom session, our team have decided to
+                            combine our Bug Collectibles idea with our Qr Code
+                            Quiz Trivia idea into a single idea.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -145,8 +183,8 @@ export default function ZoomWithRuth() {
                     alignItems: "center",
                   }}
                 >
-                  <img
-                    src="img/zoomWRuth.jpeg"
+                  <Image
+                    src="/img/zoomWRuth.jpeg"
                     alt="Zoom With Ruth"
                     style={{ width: "70%", height: "70%" }}
                   />

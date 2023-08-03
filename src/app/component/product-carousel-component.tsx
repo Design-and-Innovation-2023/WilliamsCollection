@@ -4,6 +4,7 @@ import ProductCarousel from "./carousel";
 import Link from "next/link";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 const ProductCarouselComponent: React.FC = () => {
   const controls = useAnimation();
@@ -53,7 +54,11 @@ const ProductCarouselComponent: React.FC = () => {
             href="http://junwei9955.pythonanywhere.com"
             className="flex flex-col justify-center items-center space-x-4"
           >
-            <img src="img/gamewebsite-qrcode.svg" className="w-32" />
+            <Image
+              src="/img/gamewebsite-qrcode.svg"
+              className="w-32"
+              alt="website qrcode"
+            />
           </Link>{" "}
           <Button
             variant="text"

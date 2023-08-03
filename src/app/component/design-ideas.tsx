@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import ProductCarousel from "./carousel";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Button,
   Dialog,
@@ -55,15 +56,17 @@ const DesignIdeas: React.FC = () => {
       items-center w-11/12 sm:w-4/12 md:w-8/12 
       lg:w-9/12 flex justify-center items-center "
       >
-        <img
-          src="img/mockup/design-idea-mockup.webp"
+        <Image
+          src="/img/mockup/design-idea-mockup.webp"
           className="object-cover w-10/12 md:w-9/12  xl:w-5/12"
-        ></img>
+          alt="designmockup"
+        />
 
-        <img
-          src="img/logo/design-idea.svg"
+        <Image
+          src="/img/logo/design-idea.svg"
           className="object-cover   w-8/12 sm:w-8/12 md:w-6/12 lg:w-4/12 xl:w-5/12  2xl:w-3/12 pt-5"
-        ></img>
+          alt="design-idea-logo"
+        />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
         <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
@@ -103,7 +106,7 @@ const DesignIdeas: React.FC = () => {
       </div>
       <Dialog open={open} handler={handleOpen} size="lg">
         <DialogBody>
-          <img src="img/bug_game_idea.jpeg" />
+          <Image src="/img/bug_game_idea.jpeg" alt="bug game idea" />
         </DialogBody>
       </Dialog>
     </motion.div>

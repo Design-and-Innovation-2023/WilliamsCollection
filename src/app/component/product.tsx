@@ -4,6 +4,7 @@ import ProductCarousel from "./carousel";
 import Link from "next/link";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 const ProductComponent: React.FC = () => {
   const controls = useAnimation();
@@ -46,15 +47,17 @@ const ProductComponent: React.FC = () => {
       items-center w-11/12 sm:w-4/12 md:w-8/12 
       lg:w-7/12 flex justify-center items-center "
       >
-        <img
-          src="img/phone-webapp/product-showcase.png"
+        <Image
+          src="/img/phone-webapp/product-showcase.png"
           className="object-cover w-10/12 md:w-8/12 lg:w-7/12 xl:w-5/12"
-        ></img>
+          alt="product showcase"
+        />
 
-        <img
+        <Image
           src="imgproduct-section-logo.svg"
           className="object-cover  w-8/12 sm:w-8/12 md:w-6/12 lg:w-6/12 xl:w-4/12"
-        ></img>
+          alt="product-section-logo"
+        />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
         <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">

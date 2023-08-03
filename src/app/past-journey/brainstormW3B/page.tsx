@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function BrainstormW3B() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -113,8 +113,14 @@ export default function BrainstormW3B() {
                                 in their very own collection.
                               </p>
                               <p>
-                                Click <a className="text-amber-600" href="/past-journey/bugCollectibles">here</a> for
-                                the prototype
+                                Click{" "}
+                                <a
+                                  className="text-amber-600"
+                                  href="/past-journey/bugCollectibles"
+                                >
+                                  here
+                                </a>{" "}
+                                for the prototype
                               </p>
                               <br></br>
                               <li>Qr Code Quiz Trivia</li>
@@ -129,8 +135,14 @@ export default function BrainstormW3B() {
                                 code to answer the quiz and gain points.
                               </p>
                               <p>
-                                Click <a className="text-amber-600" href="/past-journey/code-trivia">here</a> for
-                                the prototype
+                                Click{" "}
+                                <a
+                                  className="text-amber-600"
+                                  href="/past-journey/code-trivia"
+                                >
+                                  here
+                                </a>{" "}
+                                for the prototype
                               </p>
                               <br></br>
                               <li>Multiplayer Co-Op</li>
@@ -146,8 +158,14 @@ export default function BrainstormW3B() {
                                 exhibit”
                               </p>
                               <p>
-                                Click <a className="text-amber-600" href="/past-journey/MultiplayerGame">here</a> for
-                                the prototype
+                                Click{" "}
+                                <a
+                                  className="text-amber-600"
+                                  href="/past-journey/MultiplayerGame"
+                                >
+                                  here
+                                </a>{" "}
+                                for the prototype
                               </p>
                             </ul>
                           </div>
@@ -165,7 +183,7 @@ export default function BrainstormW3B() {
                     alignItems: "center",
                   }}
                 >
-                  <img
+                  <Image
                     src="imgbrainstormSession.jpg"
                     alt="BrainstormSession"
                     style={{ width: "70%", height: "70%" }}

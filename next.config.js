@@ -5,10 +5,8 @@ const nextConfig = {
         path: '',
         unoptimized: true,
     },
-    output: 'export',
-    eslint: { ignoreDuringBuilds: true },
-    assetPrefix: '/WilliamsCollection/',
-
+    assetPrefix: "/WilliamsCollection/",
+    output: 'export'
 };
 
 module.exports = nextConfig

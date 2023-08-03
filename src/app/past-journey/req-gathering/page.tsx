@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function RequirementGathered() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -182,8 +182,8 @@ export default function RequirementGathered() {
               <li className="py-12">
                 <article>
                   <div className="flex">
-                    <img
-                      src="img/rq2.jpeg"
+                    <Image
+                      src="/img/rq2.jpeg"
                       alt="RQ2"
                       style={{
                         width: "50%",
@@ -191,8 +191,8 @@ export default function RequirementGathered() {
                         marginRight: "10px",
                       }}
                     />
-                    <img
-                      src="img/rq1.jpeg"
+                    <Image
+                      src="/img/rq1.jpeg"
                       alt="RQ1"
                       style={{
                         width: "50%",

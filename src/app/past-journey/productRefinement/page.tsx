@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 export default function productRefinement() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -138,8 +138,8 @@ export default function productRefinement() {
                       <div className="space-y-6">
                         <div className="prose max-w-none text-justify text-white">
                           <div>
-                            <img
-                              src="img/refinement.jpg"
+                            <Image
+                              src="/img/refinement.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
                             />
@@ -163,7 +163,7 @@ export default function productRefinement() {
                       <div className="space-y-6">
                         <div className="prose max-w-none text-justify text-white">
                           <div>
-                            <img
+                            <Image
                               src="imgestingprototype.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}

@@ -11,6 +11,7 @@ import PosterSection from "./component/poster-section";
 import MeetTheTeam from "./component/meet-the-team";
 import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
+import Image from "next/image";
 import {
   Navbar,
   MobileNav,
@@ -148,9 +149,12 @@ export default function Home() {
             className="mx-auto max-w-screen-xl px-6 py-3"
           >
             <div className="flex items-center justify-between text-blue-gray-900">
-              <img
-                src="img/logo/main-wc-logo.svg"
+              <Image
+                src="/img/logo/main-wc-logo.svg"
                 className="opacity-100 w-36 px-4"
+                width={703}
+                height={659}
+                alt="main-wc-logo"
               />
               <div className="flex items-center gap-4">
                 <div className="mr-4 hidden lg:block">{navList}</div>
