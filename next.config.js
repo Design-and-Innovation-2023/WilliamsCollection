@@ -5,7 +5,7 @@ const nextConfig = {
         path: '',
         unoptimized: true,
     },
-    assetPrefix: "/WilliamsCollection/",
+    basePath: '/WilliamsCollection',
     output: 'export',
     eslint:{
         ignoreDuringBuilds: true,
