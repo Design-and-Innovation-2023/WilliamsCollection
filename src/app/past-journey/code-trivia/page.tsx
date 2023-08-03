@@ -76,7 +76,7 @@ export default function EmailUpdates() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
 
-                        <img src="img/wujie-nadiah.jpeg" alt="Wujie and nadiah in discussion" style={{ width: '70%', height: '70%' }} />
+                        <img src="/img/wujie-nadiah.jpeg" alt="Wujie and nadiah in discussion" style={{ width: '70%', height: '70%' }} />
 
                       </div>
                     </div>
@@ -95,7 +95,7 @@ export default function EmailUpdates() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
 
-                        <img src="img/QR_Codegame_Idea.jpeg" alt="Qr Code Quiz Trivia Storyboard" style={{ width: '70%', height: '70%' }} />
+                        <img src="/img/QR_Codegame_Idea.jpeg" alt="Qr Code Quiz Trivia Storyboard" style={{ width: '70%', height: '70%' }} />
 
                       </div>
                     </div>

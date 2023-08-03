@@ -151,8 +151,8 @@ export default function RequirementGathered() {
               <li className="py-12">
                 <article>
                   <div className="flex">
-                    <img src="img/rq2.jpeg" alt="RQ2" style={{ width: '50%', height: '50%', marginRight: '10px' }} />
-                    <img src="img/rq1.jpeg" alt="RQ1" style={{ width: '50%', height: '50%', marginRight: '10px' }} />
+                    <img src="/img/rq2.jpeg" alt="RQ2" style={{ width: '50%', height: '50%', marginRight: '10px' }} />
+                    <img src="/img/rq1.jpeg" alt="RQ1" style={{ width: '50%', height: '50%', marginRight: '10px' }} />
                   </div>
                 </article>
               </li>

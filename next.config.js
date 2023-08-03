@@ -7,6 +7,7 @@ const nextConfig = {
     },
     output: 'export',
     eslint: { ignoreDuringBuilds: true },
+    assetPrefix: '/WilliamsCollection/',
 
 };
 

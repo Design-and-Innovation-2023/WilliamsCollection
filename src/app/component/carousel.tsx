@@ -35,7 +35,7 @@ export default function ProductCarousel() {
       >
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/loading.png"
+            src="/img/phone-webapp/phone/loading.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -43,7 +43,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/start.png"
+            src="/img/phone-webapp/phone/start.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -51,7 +51,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/spinning.png"
+            src="/img/phone-webapp/phone/spinning.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -59,7 +59,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/quizq1hint.png"
+            src="/img/phone-webapp/phone/quizq1hint.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -67,7 +67,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/quizq1.png"
+            src="/img/phone-webapp/phone/quizq1.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -75,7 +75,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/quizq2.png"
+            src="/img/phone-webapp/phone/quizq2.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -83,7 +83,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/quizq3.png"
+            src="/img/phone-webapp/phone/quizq3.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -91,7 +91,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/quiz-complete.png"
+            src="/img/phone-webapp/phone/quiz-complete.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -99,7 +99,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/collection-item-info.png"
+            src="/img/phone-webapp/phone/collection-item-info.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -107,7 +107,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/emptybasket.png"
+            src="/img/phone-webapp/phone/emptybasket.png"
             alt="SwipeImg"
             width={width}
             height={height}
@@ -115,7 +115,7 @@ export default function ProductCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="img/phone-webapp/phone/today-basketfilled.png"
+            src="/img/phone-webapp/phone/today-basketfilled.png"
             alt="SwipeImg"
             width={width}
             height={height}

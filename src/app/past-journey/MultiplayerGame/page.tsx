@@ -96,7 +96,7 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
 
-                        <img src="img/jwandky.jpeg" alt="Junwei and Keiyang in discussion" style={{ width: '70%', height: '70%' }} />
+                        <img src="/img/jwandky.jpeg" alt="Junwei and Keiyang in discussion" style={{ width: '70%', height: '70%' }} />
 
                       </div>
                     </div>
@@ -115,7 +115,7 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
 
-                        <img src="imgcoop_storyboard.jpeg" alt="Coop Storyboard" style={{ width: '70%', height: '70%' }} />
+                        <img src="/imgcoop_storyboard.jpeg" alt="Coop Storyboard" style={{ width: '70%', height: '70%' }} />
 
                       </div>
                     </div>

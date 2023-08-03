@@ -166,7 +166,7 @@ export default function BrainstormW3B() {
                   }}
                 >
                   <img
-                    src="imgbrainstormSession.jpg"
+                    src="/imgbrainstormSession.jpg"
                     alt="BrainstormSession"
                     style={{ width: "70%", height: "70%" }}
                   />

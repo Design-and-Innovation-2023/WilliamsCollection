@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url('/img/web-background.webp');
+  background-image: url("/img/web-background.webp");
   background-size: fit;
 }
 
