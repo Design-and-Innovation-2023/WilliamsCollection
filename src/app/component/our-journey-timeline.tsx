@@ -253,7 +253,7 @@ const OurJourneySection: React.FC = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="25th July 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -307,7 +307,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="28th July 2023 -"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
@@ -332,7 +332,7 @@ const OurJourneySection: React.FC = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="1st August 2023"
           iconStyle={{ background: "rgba(82, 71, 59,1)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
