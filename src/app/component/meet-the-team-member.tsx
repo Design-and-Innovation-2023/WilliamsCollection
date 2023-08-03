@@ -41,7 +41,8 @@ const MeetTheTeamMember: React.FC = () => {
                 <Image
                   src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
-                  fill={true}
+                  width={40}
+                  height={40}
                 />
               </IconButton>
             </Link>
@@ -63,7 +64,8 @@ const MeetTheTeamMember: React.FC = () => {
                 <Image
                   src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
-                  fill={true}
+                  width={400}
+                  height={400}
                 />
               </IconButton>
             </Link>
@@ -85,7 +87,8 @@ const MeetTheTeamMember: React.FC = () => {
                 <Image
                   src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
-                  fill={true}
+                  width={40}
+                  height={40}
                 />
               </IconButton>
             </Link>
@@ -108,7 +111,8 @@ const MeetTheTeamMember: React.FC = () => {
                 <Image
                   src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
-                  fill={true}
+                  width={40}
+                  height={40}
                 />
               </IconButton>
             </Link>
@@ -130,7 +134,8 @@ const MeetTheTeamMember: React.FC = () => {
                 <Image
                   src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
-                  fill={true}
+                  width={40}
+                  height={40}
                 />
               </IconButton>
             </Link>
@@ -152,7 +157,8 @@ const MeetTheTeamMember: React.FC = () => {
                 <Image
                   src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
-                  fill={true}
+                  width={40}
+                  height={40}
                 />
               </IconButton>
             </Link>

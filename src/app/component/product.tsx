@@ -51,14 +51,16 @@ const ProductComponent: React.FC = () => {
           src="/WilliamsCollection/img/phone-webapp/product-showcase.png"
           className="object-cover w-10/12 md:w-8/12 lg:w-7/12 xl:w-5/12"
           alt="product showcase"
-          fill={true}
+          width={400}
+          height={400}
         />
 
         <Image
-          src="imgproduct-section-logo.svg"
+          src="/WilliamsCollection/img/product-section-logo.svg"
           className="object-cover  w-8/12 sm:w-8/12 md:w-6/12 lg:w-6/12 xl:w-4/12"
           alt="product-section-logo"
-          fill={true}
+          width={400}
+          height={400}
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">

@@ -107,7 +107,8 @@ export default function RequirementGathered() {
                           src="/WilliamsCollection/img/msg-959516274-445962 (2).jpg"
                           alt="Wujie and nadiah in discussion"
                           style={{ width: "70%", height: "70%" }}
-                          fill={true}
+                          width={400}
+                          height={400}
                         />
                       </div>
                     </div>
@@ -129,7 +130,8 @@ export default function RequirementGathered() {
                           src="imgbug_game_idea.jpeg"
                           alt="Storyboard"
                           style={{ width: "70%", height: "70%" }}
-                          fill={true}
+                          width={400}
+                          height={400}
                         />
                       </div>
                     </div>

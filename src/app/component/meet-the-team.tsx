@@ -62,7 +62,8 @@ const MeetTheTeam: React.FC = () => {
           src="/WilliamsCollection/img/logo/meet-the-team.svg"
           className="object-cover w-10/12 md:w-9/12  xl:w-4/12"
           alt="meet-the-team"
-          fill={true}
+          width={400}
+          height={400}
         />
       </div>
       <div
@@ -74,7 +75,8 @@ const MeetTheTeam: React.FC = () => {
           src="/WilliamsCollection/img/team/GrpPhoto.jpeg"
           className="object-cover w-10/12 md:w-9/12  xl:w-5/12"
           alt="team-photo"
-          fill={true}
+          width={400}
+          height={400}
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">

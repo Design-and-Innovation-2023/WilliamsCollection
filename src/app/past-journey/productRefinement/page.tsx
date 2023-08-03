@@ -142,7 +142,8 @@ export default function productRefinement() {
                               src="/WilliamsCollection/img/refinement.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
-                              fill={true}
+                              width={400}
+                              height={400}
                             />
                           </div>
                         </div>
@@ -168,7 +169,8 @@ export default function productRefinement() {
                               src="imgestingprototype.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
-                              fill={true}
+                              width={400}
+                              height={400}
                             />
                           </div>
                         </div>

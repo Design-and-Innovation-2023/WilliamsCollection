@@ -22,7 +22,8 @@ const OurJourneyStartSection: React.FC = () => {
           src="/WilliamsCollection/img/logo/our-journey-logo.svg"
           className="object-cover w-3/4 lg:w-screen"
           alt="our-journey-logo"
-          fill={true}
+          width={40}
+          height={40}
         />
       </motion.div>
 
