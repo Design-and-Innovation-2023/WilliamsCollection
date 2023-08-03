@@ -29,6 +29,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -77,6 +78,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -140,6 +142,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -214,6 +217,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">jgrizou</span>
                         </div>
@@ -228,6 +232,7 @@ export default function Dailies() {
                               <Image
                                 src="/img/accountIcon.png"
                                 alt="Account Icon"
+                                fill={true}
                               />
                               <span className="ml-2">Team 3A</span>
                             </div>
@@ -245,6 +250,7 @@ export default function Dailies() {
                               <Image
                                 src="/img/accountIcon.png"
                                 alt="Account Icon"
+                                fill={true}
                               />
                               <span className="ml-2">Team 3A</span>
                             </div>
@@ -277,6 +283,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -333,6 +340,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -363,6 +371,7 @@ export default function Dailies() {
                             src="imgbug_game_idea.jpeg"
                             alt="Bug Game Idea"
                             style={{ width: "50%", height: "50%" }}
+                            fill={true}
                           />
                           <br></br>
                           <p>
@@ -390,6 +399,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -431,6 +441,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -464,6 +475,7 @@ export default function Dailies() {
                             src="/img/25thJulyInTheMuseum.jpg"
                             alt="25th July In The Museum"
                             style={{ width: "60%", height: "60%" }}
+                            fill={true}
                           />
                         </div>
                       </div>
@@ -483,7 +495,11 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <Image src="imgountIcon.png" alt="Account Icon" />
+                          <Image
+                            src="imgountIcon.png"
+                            alt="Account Icon"
+                            fill={true}
+                          />
                           <span className="ml-2">jgrizou</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -523,6 +539,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Yuxin</span>
                         </div>
@@ -556,6 +573,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -590,6 +608,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Yuxin</span>
                         </div>
@@ -618,6 +637,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -660,7 +680,11 @@ export default function Dailies() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
-                          <Image src="imgaccountIcon.png" alt="Account Icon" />
+                          <Image
+                            src="imgaccountIcon.png"
+                            alt="Account Icon"
+                            fill={true}
+                          />
                           <span className="ml-2">Team 3A</span>
                         </div>
                         <div className="prose max-w-none text-white text-justify dark:text-white">
@@ -694,6 +718,7 @@ export default function Dailies() {
                                 height: "25%",
                                 marginRight: "10px",
                               }}
+                              fill={true}
                             />
                             <Image
                               src="/img/28thJuly2.jpg"
@@ -703,6 +728,7 @@ export default function Dailies() {
                                 height: "25%",
                                 marginRight: "10px",
                               }}
+                              fill={true}
                             />
                             <Image
                               src="img28thJuly3.jpg"
@@ -712,6 +738,7 @@ export default function Dailies() {
                                 height: "25%",
                                 marginRight: "10px",
                               }}
+                              fill={true}
                             />
                           </div>
                           <br></br>
@@ -719,6 +746,7 @@ export default function Dailies() {
                             src="/img/28thJuly4.jpg"
                             alt="28th July 4"
                             style={{ width: "70%", height: "70%" }}
+                            fill={true}
                           />
                         </div>
                       </div>
@@ -741,6 +769,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -762,6 +791,7 @@ export default function Dailies() {
                               src="/img/grpphoto.jpeg"
                               alt="28th July 1"
                               style={{ width: "70%", height: "70%" }}
+                              fill={true}
                             />
                           </div>
                         </div>
@@ -785,6 +815,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>
@@ -824,6 +855,7 @@ export default function Dailies() {
                           <Image
                             src="/img/accountIcon.png"
                             alt="Account Icon"
+                            fill={true}
                           />
                           <span className="ml-2">Team 3A</span>
                         </div>

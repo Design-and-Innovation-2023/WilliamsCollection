@@ -187,6 +187,7 @@ export default function BrainstormW3B() {
                     src="imgbrainstormSession.jpg"
                     alt="BrainstormSession"
                     style={{ width: "70%", height: "70%" }}
+                    fill={true}
                   />
                 </article>
               </li>

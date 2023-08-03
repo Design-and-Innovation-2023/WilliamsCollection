@@ -45,7 +45,7 @@ export default function productRefinement() {
                                   will be presented with an instruction page
                                   stating how the game is played and rules of
                                   the game. At the bottom of this page woud be a
-                                  "Let's Go" button.
+                                  &ldquo;Let's Go`&rdquo;` button.
                                 </li>
                                 <li>
                                   4. Upon clicking of the "Let's Go" button,
@@ -142,6 +142,7 @@ export default function productRefinement() {
                               src="/img/refinement.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
+                              fill={true}
                             />
                           </div>
                         </div>
@@ -167,6 +168,7 @@ export default function productRefinement() {
                               src="imgestingprototype.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
+                              fill={true}
                             />
                           </div>
                         </div>

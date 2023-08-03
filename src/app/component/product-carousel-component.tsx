@@ -58,6 +58,7 @@ const ProductCarouselComponent: React.FC = () => {
               src="/img/gamewebsite-qrcode.svg"
               className="w-32"
               alt="website qrcode"
+              fill={true}
             />
           </Link>{" "}
           <Button

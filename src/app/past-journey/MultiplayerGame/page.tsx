@@ -133,6 +133,7 @@ export default function MultiplayerGame() {
                           src="/img/jwandky.jpeg"
                           alt="Junwei and Keiyang in discussion"
                           style={{ width: "70%", height: "70%" }}
+                          fill={true}
                         />
                       </div>
                     </div>
@@ -154,6 +155,7 @@ export default function MultiplayerGame() {
                           src="imgcoop_storyboard.jpeg"
                           alt="Coop Storyboard"
                           style={{ width: "70%", height: "70%" }}
+                          fill={true}
                         />
                       </div>
                     </div>

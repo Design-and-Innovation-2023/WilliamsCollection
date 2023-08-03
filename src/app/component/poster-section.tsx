@@ -62,12 +62,14 @@ const PosterSection: React.FC = () => {
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12"
           onClick={handleOpen}
           alt="poster"
+          fill={true}
         />
 
         <Image
           src="/img/logo/poster-logo.svg"
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
           alt="poster-logo"
+          fill={true}
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
@@ -93,6 +95,7 @@ const PosterSection: React.FC = () => {
             className="h-fit w-full object-contain object-center"
             src="/img/mockup/poster-noframe.png"
             alt="poster no frame"
+            fill={true}
           />
         </DialogBody>
       </Dialog>

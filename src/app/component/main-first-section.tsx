@@ -49,6 +49,7 @@ const MainFirstSection: React.FC = () => {
             src="/img/logo/main-wc-logo-notext.svg"
             className="object-cover"
             alt="main-wc-logo-notext"
+            fill={true}
           />
         </div>
 

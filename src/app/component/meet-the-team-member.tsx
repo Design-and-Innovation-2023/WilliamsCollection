@@ -38,7 +38,11 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Izz Danial</h4>
             <Link href="https://www.linkedin.com/in/izzdanial/">
               <IconButton>
-                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
+                <Image
+                  src="/img/logo/linkedin.svg"
+                  alt="linkedin logo"
+                  fill={true}
+                />
               </IconButton>
             </Link>
           </div>
@@ -56,7 +60,11 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Nur Farah Nadiah</h4>
             <Link href="https://www.linkedin.com/in/farah-nadiah">
               <IconButton>
-                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
+                <Image
+                  src="/img/logo/linkedin.svg"
+                  alt="linkedin logo"
+                  fill={true}
+                />
               </IconButton>
             </Link>
           </div>
@@ -74,7 +82,11 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Chen Wu Jie</h4>
             <Link href="https://www.linkedin.com/in/wujie-chen-20b88422a">
               <IconButton>
-                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
+                <Image
+                  src="/img/logo/linkedin.svg"
+                  alt="linkedin logo"
+                  fill={true}
+                />
               </IconButton>
             </Link>
           </div>
@@ -93,7 +105,11 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Lim Jun Wei</h4>
             <Link href="https://www.linkedin.com/in/junwei10255">
               <IconButton>
-                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
+                <Image
+                  src="/img/logo/linkedin.svg"
+                  alt="linkedin logo"
+                  fill={true}
+                />
               </IconButton>
             </Link>
           </div>
@@ -111,7 +127,11 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Lionel Chew</h4>
             <Link href="https://www.linkedin.com/in/ccklionel">
               <IconButton>
-                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
+                <Image
+                  src="/img/logo/linkedin.svg"
+                  alt="linkedin logo"
+                  fill={true}
+                />
               </IconButton>
             </Link>
           </div>
@@ -129,7 +149,11 @@ const MeetTheTeamMember: React.FC = () => {
             <h4 className="text-lg xl:text-2xl text-white">Lim Kei Yiang</h4>
             <Link href="https://www.linkedin.com/in/keiyianglim/">
               <IconButton>
-                <Image src="/img/logo/linkedin.svg" alt="linkedin logo" />
+                <Image
+                  src="/img/logo/linkedin.svg"
+                  alt="linkedin logo"
+                  fill={true}
+                />
               </IconButton>
             </Link>
           </div>

@@ -85,6 +85,7 @@ export default function EmailUpdates() {
                           src="/img/wujie-nadiah.jpeg"
                           alt="Wujie and nadiah in discussion"
                           style={{ width: "70%", height: "70%" }}
+                          fill={true}
                         />
                       </div>
                     </div>
@@ -106,6 +107,7 @@ export default function EmailUpdates() {
                           src="/img/QR_Codegame_Idea.jpeg"
                           alt="Qr Code Quiz Trivia Storyboard"
                           style={{ width: "70%", height: "70%" }}
+                          fill={true}
                         />
                       </div>
                     </div>
