@@ -139,7 +139,7 @@ export default function productRefinement() {
                         <div className="prose max-w-none text-justify text-white">
                           <div>
                             <Image
-                              src="/img/refinement.jpg"
+                              src="/WilliamsCollection/img/refinement.jpg"
                               alt="BrainstormSession"
                               style={{ width: "70%", height: "70%" }}
                               fill={true}

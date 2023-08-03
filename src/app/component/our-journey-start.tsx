@@ -19,7 +19,7 @@ const OurJourneyStartSection: React.FC = () => {
         className="flex flex-col justify-end items-center h-4/6 max-w-sm lg:max-w-lg 2xl:max-w-xl sm:mt-10 "
       >
         <Image
-          src="/img/logo/our-journey-logo.svg"
+          src="/WilliamsCollection/img/logo/our-journey-logo.svg"
           className="object-cover w-3/4 lg:w-screen"
           alt="our-journey-logo"
           fill={true}

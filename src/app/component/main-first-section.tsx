@@ -46,7 +46,7 @@ const MainFirstSection: React.FC = () => {
       <div className="flex flex-col justify-center items-center space-y-4">
         <div className=" w-5/12 md:w-3/12 2xl:w-2/12">
           <Image
-            src="/img/logo/main-wc-logo-notext.svg"
+            src="/WilliamsCollection/img/logo/main-wc-logo-notext.svg"
             className="object-cover"
             alt="main-wc-logo-notext"
             fill={true}

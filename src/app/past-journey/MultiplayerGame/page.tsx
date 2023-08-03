@@ -130,7 +130,7 @@ export default function MultiplayerGame() {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <Image
-                          src="/img/jwandky.jpeg"
+                          src="/WilliamsCollection/img/jwandky.jpeg"
                           alt="Junwei and Keiyang in discussion"
                           style={{ width: "70%", height: "70%" }}
                           fill={true}

@@ -28,7 +28,7 @@ const MeetTheTeamMember: React.FC = () => {
         <div className="space-y-4 text-center">
           <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="/img/team/IzzDanial.jpeg"
+            src="/WilliamsCollection/img/team/IzzDanial.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -39,7 +39,7 @@ const MeetTheTeamMember: React.FC = () => {
             <Link href="https://www.linkedin.com/in/izzdanial/">
               <IconButton>
                 <Image
-                  src="/img/logo/linkedin.svg"
+                  src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
                   fill={true}
                 />
@@ -50,7 +50,7 @@ const MeetTheTeamMember: React.FC = () => {
         <div className="space-y-4 text-center">
           <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-48 lg:h-48"
-            src="/img/team/Nadiah.jpeg"
+            src="/WilliamsCollection/img/team/Nadiah.jpeg"
             alt="man"
             loading="lazy"
             width="1000"
@@ -61,7 +61,7 @@ const MeetTheTeamMember: React.FC = () => {
             <Link href="https://www.linkedin.com/in/farah-nadiah">
               <IconButton>
                 <Image
-                  src="/img/logo/linkedin.svg"
+                  src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
                   fill={true}
                 />
@@ -72,7 +72,7 @@ const MeetTheTeamMember: React.FC = () => {
         <div className="space-y-4 text-center">
           <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="/img/team/Wujie.jpeg"
+            src="/WilliamsCollection/img/team/Wujie.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -83,7 +83,7 @@ const MeetTheTeamMember: React.FC = () => {
             <Link href="https://www.linkedin.com/in/wujie-chen-20b88422a">
               <IconButton>
                 <Image
-                  src="/img/logo/linkedin.svg"
+                  src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
                   fill={true}
                 />
@@ -95,7 +95,7 @@ const MeetTheTeamMember: React.FC = () => {
         <div className="space-y-4 text-center">
           <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="/img/team/JunWei.jpeg"
+            src="/WilliamsCollection/img/team/JunWei.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -106,7 +106,7 @@ const MeetTheTeamMember: React.FC = () => {
             <Link href="https://www.linkedin.com/in/junwei10255">
               <IconButton>
                 <Image
-                  src="/img/logo/linkedin.svg"
+                  src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
                   fill={true}
                 />
@@ -117,7 +117,7 @@ const MeetTheTeamMember: React.FC = () => {
         <div className="space-y-4 text-center">
           <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="/img/team/Lionel.jpeg"
+            src="/WilliamsCollection/img/team/Lionel.jpeg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -128,7 +128,7 @@ const MeetTheTeamMember: React.FC = () => {
             <Link href="https://www.linkedin.com/in/ccklionel">
               <IconButton>
                 <Image
-                  src="/img/logo/linkedin.svg"
+                  src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
                   fill={true}
                 />
@@ -139,7 +139,7 @@ const MeetTheTeamMember: React.FC = () => {
         <div className="space-y-4 text-center">
           <Image
             className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-48 lg:h-48"
-            src="/img/team/ky.jpg"
+            src="/WilliamsCollection/img/team/ky.jpg"
             alt="woman"
             loading="lazy"
             width="1000"
@@ -150,7 +150,7 @@ const MeetTheTeamMember: React.FC = () => {
             <Link href="https://www.linkedin.com/in/keiyianglim/">
               <IconButton>
                 <Image
-                  src="/img/logo/linkedin.svg"
+                  src="/WilliamsCollection/img/logo/linkedin.svg"
                   alt="linkedin logo"
                   fill={true}
                 />

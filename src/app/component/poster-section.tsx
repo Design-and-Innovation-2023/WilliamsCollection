@@ -58,7 +58,7 @@ const PosterSection: React.FC = () => {
       lg:w-9/12 flex justify-center items-center "
       >
         <Image
-          src="/img/mockup/poster-withholder.png"
+          src="/WilliamsCollection/img/mockup/poster-withholder.png"
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12"
           onClick={handleOpen}
           alt="poster"
@@ -66,7 +66,7 @@ const PosterSection: React.FC = () => {
         />
 
         <Image
-          src="/img/logo/poster-logo.svg"
+          src="/WilliamsCollection/img/logo/poster-logo.svg"
           className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
           alt="poster-logo"
           fill={true}
@@ -93,7 +93,7 @@ const PosterSection: React.FC = () => {
         <DialogBody className="bg-transparent">
           <Image
             className="h-fit w-full object-contain object-center"
-            src="/img/mockup/poster-noframe.png"
+            src="/WilliamsCollection/img/mockup/poster-noframe.png"
             alt="poster no frame"
             fill={true}
           />

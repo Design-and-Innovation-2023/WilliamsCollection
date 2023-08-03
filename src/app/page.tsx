@@ -150,7 +150,7 @@ export default function Home() {
           >
             <div className="flex items-center justify-between text-blue-gray-900">
               <Image
-                src="/img/logo/main-wc-logo.svg"
+                src="/WilliamsCollection/img/logo/main-wc-logo.svg"
                 className="opacity-100 w-36 px-4"
                 width={703}
                 height={659}

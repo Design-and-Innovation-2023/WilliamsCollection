@@ -27,7 +27,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -76,7 +76,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -140,7 +140,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -215,7 +215,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -230,7 +230,7 @@ export default function Dailies() {
                           <div className="border-dotted border-2 border-white ">
                             <div className="flex flex-wrap items-center text-white">
                               <Image
-                                src="/img/accountIcon.png"
+                                src="/WilliamsCollection/img/accountIcon.png"
                                 alt="Account Icon"
                                 fill={true}
                               />
@@ -248,7 +248,7 @@ export default function Dailies() {
                           <div className="border-dotted border-2 border-white ">
                             <div className="flex flex-wrap items-center text-white">
                               <Image
-                                src="/img/accountIcon.png"
+                                src="/WilliamsCollection/img/accountIcon.png"
                                 alt="Account Icon"
                                 fill={true}
                               />
@@ -281,7 +281,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -338,7 +338,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -397,7 +397,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -416,7 +416,7 @@ export default function Dailies() {
                           <br></br>
                           <p>One hi-fi prototype example we did:</p>
                           <Image
-                            src="/img/24thJulyHi-FI.png"
+                            src="/WilliamsCollection/img/24thJulyHi-FI.png"
                             alt="24th July Hi-Fi"
                             style={{ width: "20%", height: "20%" }}
                           />
@@ -439,7 +439,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -472,7 +472,7 @@ export default function Dailies() {
                           </p>
                           <br></br>
                           <Image
-                            src="/img/25thJulyInTheMuseum.jpg"
+                            src="/WilliamsCollection/img/25thJulyInTheMuseum.jpg"
                             alt="25th July In The Museum"
                             style={{ width: "60%", height: "60%" }}
                             fill={true}
@@ -537,7 +537,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -571,7 +571,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -606,7 +606,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -635,7 +635,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -711,7 +711,7 @@ export default function Dailies() {
                           <br></br>
                           <div className="flex">
                             <Image
-                              src="/img/28thJuly1.jpg"
+                              src="/WilliamsCollection/img/28thJuly1.jpg"
                               alt="28th July 1"
                               style={{
                                 width: "25%",
@@ -721,7 +721,7 @@ export default function Dailies() {
                               fill={true}
                             />
                             <Image
-                              src="/img/28thJuly2.jpg"
+                              src="/WilliamsCollection/img/28thJuly2.jpg"
                               alt="28th July 2"
                               style={{
                                 width: "25%",
@@ -743,7 +743,7 @@ export default function Dailies() {
                           </div>
                           <br></br>
                           <Image
-                            src="/img/28thJuly4.jpg"
+                            src="/WilliamsCollection/img/28thJuly4.jpg"
                             alt="28th July 4"
                             style={{ width: "70%", height: "70%" }}
                             fill={true}
@@ -767,7 +767,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -788,7 +788,7 @@ export default function Dailies() {
                           <br></br>
                           <div className="flex">
                             <Image
-                              src="/img/grpphoto.jpeg"
+                              src="/WilliamsCollection/img/grpphoto.jpeg"
                               alt="28th July 1"
                               style={{ width: "70%", height: "70%" }}
                               fill={true}
@@ -813,7 +813,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />
@@ -853,7 +853,7 @@ export default function Dailies() {
                       <div className="space-y-6">
                         <div className="flex flex-wrap items-center text-white">
                           <Image
-                            src="/img/accountIcon.png"
+                            src="/WilliamsCollection/img/accountIcon.png"
                             alt="Account Icon"
                             fill={true}
                           />

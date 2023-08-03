@@ -55,7 +55,7 @@ const ProductCarouselComponent: React.FC = () => {
             className="flex flex-col justify-center items-center space-x-4"
           >
             <Image
-              src="/img/gamewebsite-qrcode.svg"
+              src="/WilliamsCollection/img/gamewebsite-qrcode.svg"
               className="w-32"
               alt="website qrcode"
               fill={true}

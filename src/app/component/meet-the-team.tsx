@@ -59,7 +59,7 @@ const MeetTheTeam: React.FC = () => {
       lg:w-9/12 flex justify-center items-center "
       >
         <Image
-          src="/img/logo/meet-the-team.svg"
+          src="/WilliamsCollection/img/logo/meet-the-team.svg"
           className="object-cover w-10/12 md:w-9/12  xl:w-4/12"
           alt="meet-the-team"
           fill={true}
@@ -71,7 +71,7 @@ const MeetTheTeam: React.FC = () => {
       lg:w-9/12 flex justify-center items-center"
       >
         <Image
-          src="/img/team/GrpPhoto.jpeg"
+          src="/WilliamsCollection/img/team/GrpPhoto.jpeg"
           className="object-cover w-10/12 md:w-9/12  xl:w-5/12"
           alt="team-photo"
           fill={true}
