@@ -69,6 +69,12 @@ const ProductComponent: React.FC = () => {
           virtual artefact into their personal collection when they visit The
           Hunterian Museum.{" "}
         </p>
+
+        <p className="text-white text-sm text-center mt-5">
+          Team 3A takes great pride in creating an enriching and fun educational
+          experience for children visiting The Hunterian Museum, reflecting our
+          firm belief in making learning enjoyable for the young.
+        </p>
       </div>
 
       <div className="flex flex-col justify-center items-center">
