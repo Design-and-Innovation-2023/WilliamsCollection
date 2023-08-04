@@ -1,10 +1,13 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import CustomNavbar from "@/app/component/navbar2";
 export default function EmailUpdates() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <div className="flex h-screen flex-col justify-between">
+        <CustomNavbar />
         <main className="mb-auto">
           <div className="divide-y divide-white-200 dark:divide-white-700">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">

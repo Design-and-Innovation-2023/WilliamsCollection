@@ -1,10 +1,13 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import CustomNavbar from "@/app/component/navbar2";
 export default function productRefinement() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <div className="flex h-screen flex-col justify-between">
+        <CustomNavbar />
         <main className="mb-auto">
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
             <div className="space-y-2 pt-6 pb-8 md:space-y-5">
