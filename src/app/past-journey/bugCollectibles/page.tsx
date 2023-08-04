@@ -159,7 +159,7 @@ export default function RequirementGathered() {
                             <a
                               className="text-amber-600"
                               href={
-                                "https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=18%3A2&mode=design&t=jGNAKFHiHaCReBdy-1"
+                                "https://www.figma.com/file/Job55x2Bnx1fQS8KoqOPib/Untitled?type=design&node-id=0%3A1&mode=design&t=xEHTVLQ7FINMA8AK-1"
                               }
                             >
                               here
