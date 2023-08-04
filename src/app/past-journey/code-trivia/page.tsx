@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import Link from "next/link";
 export default function EmailUpdates() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -131,14 +131,14 @@ export default function EmailUpdates() {
                         <div className="prose max-w-none text-white text-justify dark:text-white">
                           <p>
                             Click{" "}
-                            <a
+                            <Link
                               className="text-amber-600"
                               href={
                                 "https://www.figma.com/file/0Z1wbQ0pYOWU13dqEbbJcz/Untitled?type=design&node-id=0%3A1&mode=design&t=3Vr3xWx0QV8B4HLs-1"
                               }
                             >
                               here
-                            </a>{" "}
+                            </Link>{" "}
                             for the figma
                           </p>
                         </div>

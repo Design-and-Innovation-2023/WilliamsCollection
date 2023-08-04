@@ -50,64 +50,61 @@ export default function MultiplayerGame() {
                       <div className="space-y-6">
                         <div className="prose max-w-none text-white text-justify dark:text-white">
                           <div className="flex">
-                            <div
-                              className="team-list"
-                              style={{ marginRight: "50px" }}
-                            >
+                            <div className="team-list">
                               {/* <p className="font-bold underline decoration-solid">
                                 Team 3A
                               </p> */}
-                              <ul>
+                              <ul className="list-decimal mx-auto">
                                 <li>
-                                  1. When a family enters the museum, a parent
+                                  When a family enters the museum, a parent
                                   would create a room and become the host.
                                 </li>
                                 <li>
-                                  2. The rest of the family members would be
-                                  able to join the room using the room code.
+                                  The rest of the family members would be able
+                                  to join the room using the room code.
                                 </li>
                                 <li>
-                                  3. When the host starts the room, each player
+                                  When the host starts the room, each player
                                   would be given a random location that the
                                   player needs to navigate to.
                                 </li>
                                 <li>
-                                  4. There would also be a warning at the bottom
-                                  of the screen to advice the kids to walk
-                                  slowly in the museum.
+                                  There would also be a warning at the bottom of
+                                  the screen to advice the kids to walk slowly
+                                  in the museum.
                                 </li>
                                 <li>
-                                  5. When the player arrives at thier designated
+                                  When the player arrives at thier designated
                                   location, they would be asked questions about
                                   the artifact at that location.
                                 </li>
                                 <li>
-                                  6. After they correctly answer a question,
-                                  they need to move to another location for the
-                                  next question.
+                                  After they correctly answer a question, they
+                                  need to move to another location for the next
+                                  question.
                                 </li>
                                 <li>
-                                  7. When everyone on the room completes all
-                                  thier questions, they will return to the
-                                  meeting point.
+                                  When everyone on the room completes all thier
+                                  questions, they will return to the meeting
+                                  point.
                                 </li>
                                 <li>
-                                  8. The host would then be able to start the
-                                  final quiz after everyone is back.
+                                  The host would then be able to start the final
+                                  quiz after everyone is back.
                                 </li>
                                 <li>
-                                  9. Questions would be asked about the
-                                  artifacts they have just visited and the
-                                  person that visited that particular artifact
-                                  would have to share about their knowledge of
-                                  the artifact so that everyone can answer the
-                                  question correctly.
+                                  Questions would be asked about the artifacts
+                                  they have just visited and the person that
+                                  visited that particular artifact would have to
+                                  share about their knowledge of the artifact so
+                                  that everyone can answer the question
+                                  correctly.
                                 </li>
                                 <li>
-                                  10. When everyone have answered all the
-                                  questions correctly, all the players would get
-                                  a digital badge to show that they have
-                                  completed the game.
+                                  When everyone have answered all the questions
+                                  correctly, all the players would get a digital
+                                  badge to show that they have completed the
+                                  game.
                                 </li>
                               </ul>
                             </div>

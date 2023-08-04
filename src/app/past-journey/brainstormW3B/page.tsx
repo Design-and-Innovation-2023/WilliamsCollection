@@ -160,12 +160,12 @@ export default function BrainstormW3B() {
                               </p>
                               <p>
                                 Click{" "}
-                                <a
+                                <Link
                                   className="text-amber-600"
                                   href="/past-journey/MultiplayerGame"
                                 >
                                   here
-                                </a>{" "}
+                                </Link>{" "}
                                 for the prototype
                               </p>
                             </ul>

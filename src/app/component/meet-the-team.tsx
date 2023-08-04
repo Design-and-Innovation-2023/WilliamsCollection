@@ -68,12 +68,12 @@ const MeetTheTeam: React.FC = () => {
       </div>
       <div
         className="flex flex-col justify-center 
-      items-center w-11/12 sm:w-4/12 md:w-8/12 
+      items-center w-11/12 sm:w-4/12 md:w-7/12 
       lg:w-9/12 flex justify-center items-center"
       >
         <Image
           src="/WilliamsCollection/img/team/GrpPhoto.jpeg"
-          className="object-cover w-10/12 md:w-9/12  xl:w-5/12"
+          className="object-cover w-10/12 md:w-9/12  xl:w-4/12 "
           alt="team-photo"
           width={400}
           height={400}
