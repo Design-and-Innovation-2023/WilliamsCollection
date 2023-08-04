@@ -55,12 +55,12 @@ const MeetTheTeam: React.FC = () => {
     >
       <div
         className="flex flex-col justify-center 
-      items-center w-10/12 sm:w-4/12 md:w-7/12 
+      items-center w-8/12 sm:w-4/12 md:w-6/12 
       lg:w-9/12 flex justify-center items-center "
       >
         <Image
           src="/WilliamsCollection/img/logo/meet-the-team.svg"
-          className="object-cover w-10/12 md:w-9/12  xl:w-4/12"
+          className="object-cover w-10/12 md:w-9/12  xl:w-3/12"
           alt="meet-the-team"
           width={400}
           height={400}
@@ -80,7 +80,7 @@ const MeetTheTeam: React.FC = () => {
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
-        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+        <p className="text-white text-md text-center">
           Our team's tenacity and seamless collaboration defied all challenges,
           leading us triumphantly to the project's successful culmination{" "}
         </p>

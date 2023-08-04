@@ -859,6 +859,13 @@ export default function Dailies() {
                             The team will be working on the static website where
                             we will be completing it as soon as possible.
                           </p>
+                          <Image
+                            src="/WilliamsCollection/img/team/daily-1aug2023.png"
+                            alt="Bug Game Idea"
+                            style={{ width: "50%", height: "50%" }}
+                            width={1280}
+                            height={960}
+                          />
                           <br></br>
                           <p></p>
                         </div>

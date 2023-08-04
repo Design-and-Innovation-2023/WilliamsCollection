@@ -1,9 +1,8 @@
 import { motion, useAnimation } from "framer-motion";
 import React from "react";
-import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 import CustomButton from "./buttons";
+import ReactPlayer from "react-player";
 const MainFirstSection: React.FC = () => {
   const controls = useAnimation();
 
@@ -44,17 +43,24 @@ const MainFirstSection: React.FC = () => {
       className="flex flex-col justify-center items-center w-screen  h-screen mt-0 pb-40 mb-auto space-y-10  sm:space-y-10  md:space-y-10 lg:space-y-10 xl:space-y-10 2xl:space-y-10"
     >
       <div className="flex flex-col justify-center items-center space-y-4">
-        <div className=" w-5/12 md:w-3/12 2xl:w-2/12">
+        <div className=" w-screen flex justify-center items-center space-x-4">
           <Image
-            src="/WilliamsCollection/img/logo/main-wc-logo-notext.svg"
-            className="object-cover"
-            alt="main-wc-logo-notext"
-            width={400}
-            height={400}
+            src="/WilliamsCollection/img/mockup/gameqr.png"
+            width={100}
+            height={300}
+            alt="gameqr"
+          />
+          <ReactPlayer
+            url="https://youtu.be/yZW9wJyQTpw"
+            width="fit-content"
+            height="100%"
+            controls={true}
+            playing={true}
+            pip={true}
           />
         </div>
 
-        <div className="w-10/12">
+        <div className="w-11/12">
           <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
             Explore the Marvels of the Museum with William's Collection!
           </p>

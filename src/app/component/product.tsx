@@ -63,14 +63,14 @@ const ProductComponent: React.FC = () => {
           height={400}
         />
       </div>
-      <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
-        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+      <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto space-y-5">
+        <p className="text-white text-md text-center">
           An interactive and enriching experience for young visitors to collect
           virtual artefact into their personal collection when they visit The
           Hunterian Museum.{" "}
         </p>
 
-        <p className="text-white text-sm text-center mt-5">
+        <p className="text-white text-sm text-center">
           Team 3A takes great pride in creating an enriching and fun educational
           experience for children visiting The Hunterian Museum, reflecting our
           firm belief in making learning enjoyable for the young.

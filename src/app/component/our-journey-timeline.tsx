@@ -284,9 +284,14 @@ const OurJourneySection: React.FC = () => {
               className="text-amber-600"
               href="https://youtu.be/leZ4pftF0d4"
             >
-              here
+              <Image
+                src="/WilliamsCollection/img/videothumbnail/thumbnailtest1.png"
+                className="mt-4"
+                alt="Video thumbnail photo"
+                width={1268}
+                height={815}
+              />
             </Link>
-            !
           </p>
         </VerticalTimelineElement>
 
@@ -310,7 +315,6 @@ const OurJourneySection: React.FC = () => {
             suggestions were provided for us to improve our solution. The team
             had noted them down for further discussion.
           </p>
-          <p>Check out our meeting here.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -368,9 +372,14 @@ const OurJourneySection: React.FC = () => {
               className="text-amber-600"
               href="https://youtu.be/leZ4pftF0d4"
             >
-              here
+              <Image
+                src="/WilliamsCollection/img/videothumbnail/thumbnailtest2.png"
+                className="mt-4"
+                alt="Video thumbnail photo"
+                width={1268}
+                height={815}
+              />
             </Link>
-            !
           </p>
         </VerticalTimelineElement>
 

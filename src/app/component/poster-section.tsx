@@ -68,14 +68,14 @@ const PosterSection: React.FC = () => {
 
         <Image
           src="/WilliamsCollection/img/logo/poster-logo.svg"
-          className="object-cover w-5/12 md:w-5/12  xl:w-3/12  "
+          className="object-cover w-5/12 md:w-5/12  xl:w-2/12  "
           alt="poster-logo"
           width={400}
           height={400}
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
-        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+        <p className="text-white text-md text-center">
           Unveil brielliance at our exhibition poster - a gateway to boundless
           inspiration{" "}
         </p>

@@ -73,7 +73,7 @@ const DesignIdeas: React.FC = () => {
         />
       </div>
       <div className=" w-5/6 2xl:w-3/6 mr-auto ml-auto">
-        <p className="text-white text-sm sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl text-center">
+        <p className="text-white text-md text-center">
           "The Power of Design Thinking: From Ideas to Figma Realisation" -
           Witness the application of design thinking principles as we transform
           initial concepts into tangible hi-fi prototypes, with Figma serving as
